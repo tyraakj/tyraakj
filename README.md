@@ -1,4 +1,4 @@
-# Hi, I'm tyraakj 👋
+# Hi, I'm Tyra👋
 
 ### Full-Stack Developer | Java, Spring Boot & React
 
