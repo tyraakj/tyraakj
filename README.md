@@ -5,8 +5,16 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=30&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=%3E_Hello,+I'm+Tyra+Javed;%3E_Full-Stack+%26+Web3+Engineer;%3E_Building+systems+that+scale;%3E_Shipped,+not+just+demos_" alt="Typing SVG" />
 </a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-tyrakj.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tyrakj.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tyraakj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
+<!-- Live Profile Views -->
+![](https://komarev.com/ghpvc/?username=tyraakj&color=8B5CF6&style=flat-square&label=PROFILE+VIEWS)
+
+<br/>
+
+<!-- Social Dock -->
+<a href="https://tyrakj.vercel.app"><img src="https://skillicons.dev/icons?i=custom_vercel&theme=dark" height="40" alt="Portfolio"/></a> &nbsp;
+<a href="https://www.linkedin.com/in/tyraakj/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="40" alt="LinkedIn"/></a> &nbsp;
+<a href="mailto:your.email@example.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="40" alt="Email"/></a> &nbsp;
+<a href="https://discord.com/users/yourdiscordid"><img src="https://skillicons.dev/icons?i=discord&theme=dark" height="40" alt="Discord"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=60&section=footer" width="100%"/>
 
@@ -36,6 +44,16 @@
       <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,solidity,aws,docker,git,linux&theme=dark&perline=8" />
     </a>
   </p>
+</div>
+
+<br/>
+
+### 🏆 Achievement Showcase
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=tyraakj&theme=dracula&no-frame=true&no-bg=true&margin-w=15&column=7" />
+  </a>
 </div>
 
 <br/>
@@ -87,9 +105,18 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tyraakj&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=8B5CF6&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8B5CF6&sideLabels=ffffff&dates=ffffff" width="48%" />
 </div>
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=a1a1aa" width="60%" />
+</div>
+
 <br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=60&section=header" width="100%"/>
 </div>
+```eof
 
+### The Next Level (Action Required):
+If you *really* want to blow people's minds, the absolute peak of GitHub READMEs right now is the **Animated Contribution Snake**. It's a literal game of Snake that plays over your contribution graph, eating your commits. 
+
+Because it requires analyzing your private contribution data, I can't generate it directly in Markdown. You have to run it yourself. If you want to add it, let me know and I can write you the exact `snake.yml` GitHub Action file to generate it automatically every night!
