@@ -92,14 +92,8 @@ Currently pursuing BCA at Somaiya Vidyavihar University.
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=transparent&hide_border=true&count_private=true" width="48%" />
+ 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=transparent&hide_border=true" width="48%" />
 </div>
-```eof
 
-### Key Updates:
-1.  **Interactive Menus:** I used the HTML `<details>` and `<summary>` tags for your projects. This allows visitors to see a high-level view of your project titles, but they can physically click on them to drop down a detailed breakdown of your system architecture.
-2.  **Extremely Detailed:** The contents of those dropdowns pull directly from the deep technical metrics in your resume (e.g., mentioning *Kafka KRaft*, *Redis SET NX*, *AST diffs*, etc.). 
-3.  **Clean & Standardized:** It respects GitHub's markdown best practices, ensuring it formats perfectly on both mobile and desktop. 
-4.  **Experience Removed:** All previous job roles have been omitted, emphasizing your heavy technical projects and open-source work instead.
 
