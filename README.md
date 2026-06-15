@@ -1,122 +1,130 @@
-<div align="center">
-
-<!-- Terminal-Style Animated Header -->
-<a href="https://tyrakj.vercel.app">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=30&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=%3E_Hello,+I'm+Tyra+Javed;%3E_Full-Stack+%26+Web3+Engineer;%3E_Building+systems+that+scale;%3E_Shipped,+not+just+demos_" alt="Typing SVG" />
-</a>
-
-<!-- Live Profile Views -->
-![](https://komarev.com/ghpvc/?username=tyraakj&color=8B5CF6&style=flat-square&label=PROFILE+VIEWS)
-
-<br/>
-
-<!-- Social Dock -->
-<a href="https://tyrakj.vercel.app"><img src="https://skillicons.dev/icons?i=custom_vercel&theme=dark" height="40" alt="Portfolio"/></a> &nbsp;
-<a href="https://www.linkedin.com/in/tyraakj/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="40" alt="LinkedIn"/></a> &nbsp;
-<a href="mailto:your.email@example.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="40" alt="Email"/></a> &nbsp;
-<a href="https://discord.com/users/yourdiscordid"><img src="https://skillicons.dev/icons?i=discord&theme=dark" height="40" alt="Discord"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=60&section=footer" width="100%"/>
-
-</div>
-
-<br/>
-
-### ⚡ Behind the Code
-> **Engineering Philosophy:** *"Scalability is not an afterthought, and security is not a plugin. I build systems designed to be resilient from the first commit."*
-
-- 🔭 **Currently architecting:** Enterprise-grade Web3 infrastructure and Agentic AI workflows.
-- 🌱 **Deep diving into:** Rust, Zero-Knowledge Proofs (ZKPs), and highly-optimized vector databases.
-- ⚡ **Fun fact:** I treat my APIs like my smart contracts—immutable, secure, and rigorously tested.
-
-<br/>
-
-### 🛠️ Technical Arsenal
-
-<div align="center">
-  <p align="center">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=ts,js,react,vite,java,spring,fastapi,python&theme=dark&perline=8" />
-    </a>
-  </p>
-  <p align="center">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,solidity,aws,docker,git,linux&theme=dark&perline=8" />
-    </a>
-  </p>
-</div>
-
-<br/>
-
-### 🏆 Achievement Showcase
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=tyraakj&theme=dracula&no-frame=true&no-bg=true&margin-w=15&column=7" />
-  </a>
-</div>
-
-<br/>
-
-### 🏗️ Deployed Architecture
-
-<details>
-  <summary><b> 🔐 Vaulted </b> <i>(Gasless freelance escrow on Base Sepolia)</i></summary>
-  <br/>
-  <blockquote>
-    Payment locks on-chain at job creation, releases on client approval, with a 7-day auto-release dispute mechanism.<br/>
-    <b>Stack:</b> <code>Solidity</code>, <code>OpenZeppelin</code>, <code>ethers.js</code>, <code>React</code>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b> 🤖 Agentic Commerce Gateway </b> <i>(AI shopping assistant for 11 Indian languages)</i></summary>
-  <br/>
-  <blockquote>
-    Routes natural-language and handwritten orders via LangChain + Sarvam LLMs, with Twilio and Paytm integration.<br/>
-    <b>Stack:</b> <code>FastAPI</code>, <code>LangChain</code>, <code>React</code>, <code>PostgreSQL</code>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b> 🛡️ CodeSheriff </b> <i>(4-layer code security pipeline)</i></summary>
-  <br/>
-  <blockquote>
-    Prompt-injection detection, credential leak scanning, AST-based hallucination checks, immutable audit trail, IBM watsonx.ai for Java analysis.<br/>
-    <b>Stack:</b> <code>Spring Boot</code>, <code>IBM watsonx.ai</code>, <code>JavaParser</code>, <code>JWT</code>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b> ⚡ API Guardian </b> <i>(Non-blocking API gateway)</i></summary>
-  <br/>
-  <blockquote>
-    Kafka event streaming, Redis-backed rate limiting, Resilience4j circuit breakers, JWT auth, live React SSE dashboard.<br/>
-    <b>Stack:</b> <code>Spring Boot</code>, <code>Kafka</code>, <code>Redis</code>, <code>Resilience4j</code>
-  </blockquote>
-</details>
-
-<br/>
-
-### 📊 Radar & Telemetry
+<!-- ░▒▓ TYRA JAVED ▓▒░ -->
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tyraakj&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=8B5CF6&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8B5CF6&sideLabels=ffffff&dates=ffffff" width="48%" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&pause=1000&color=C084FC&center=true&vCenter=true&width=600&lines=building+things+that+don't+break;multi-agent+pipelines+%2F+gasless+escrow+%2F+API+gateways;if+it+doesn't+hit+prod%2C+it+didn't+happen;full-stack+%2F+web3+%2F+agentic+AI;currently+breaking+regulated+workflows+with+LLMs)](https://git.io/typing-svg)
+
+```
+████████╗██╗   ██╗██████╗  █████╗
+╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔══██╗
+   ██║    ╚████╔╝ ██████╔╝███████║
+   ██║     ╚██╔╝  ██╔══██╗██╔══██║
+   ██║      ██║   ██║  ██║██║  ██║
+   ╚═╝      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
+```
+
+**`Full-Stack · Web3 · Agentic AI`**
+
+[![Portfolio](https://img.shields.io/badge/⟶_tyrakj.vercel.app-000000?style=flat-square&logoColor=white)](https://tyrakj.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/⟶_linkedin%2Ftyraakj-0A66C2?style=flat-square&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
+![Profile Views](https://komarev.com/ghpvc/?username=tyraakj&style=flat-square&color=c084fc&label=PROFILE+VIEWS)
+
 </div>
+
+<img src="https://raw.githubusercontent.com/tyraakj/tyraakj/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0a0a0f&height=2&section=header&stroke=c084fc&strokeWidth=2"/>
+
+---
+
+> I build things that **actually work** — not prototypes, not slides, not vibes.
+> Multi-agent pipelines. Gasless escrow. API gateways under load.
+> If it doesn't hit prod, it didn't happen.
+>
+> Currently: breaking regulated workflows with LLMs and shipping Web3 systems nobody else bothered to finish.
+
+---
+
+## ⬡ Currently Building
+
+```
+[ ACTIVE ]  Band of Agents Hackathon · Track 3 · Regulated AI Workflows
+[ ACTIVE ]  India Agentic AI Open · AlphaForge · Multi-Agent Financial Signal Gen
+[ QUEUED ]  Enclave · LangGraph multi-agent financial data analysis platform
+```
+
+---
+
+## ⬡ Hackathons
+
+| Event | Track / Focus | Status |
+|---|---|---|
+| Band of Agents (lablab.ai) | Regulated & High-Stakes Workflows · Web3+AI | 🟣 Live |
+| India Agentic AI Open | Multi-agent financial signal generation · NVIDIA stack | 🟣 Live |
+| Paytm AI Hackathon | Multilingual agentic commerce · Sarvam LLMs | ✅ Shipped |
+
+---
+
+## ⬡ Stack
+
+**Languages & Frontend**
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+**Backend & Data**
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+**Web3 & AI**
+![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logoColor=white)
+
+**Infra**
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## ⬡ Shipped
+
+**[VAULTED](https://tyrakj.vercel.app)** `·` Gasless freelance escrow on Base Sepolia.
+Payment locks on-chain at job creation, releases on approval, auto-releases after 7 days if the client ghosts you. No middlemen. No gas fees.
+`Solidity` `OpenZeppelin` `ethers.js` `React`
+
+**AGENTIC COMMERCE GATEWAY** `·` AI shopkeeper routing natural-language and handwritten orders across 11 Indian languages. Twilio inbound, Sarvam LLM for understanding, Paytm for payment links, one FastAPI backend holding it all together.
+`FastAPI` `LangChain` `Sarvam` `PostgreSQL`
+
+**CODESHERIFF** `·` 4-layer code security pipeline: prompt-injection detection, credential leak scanning, AST-based hallucination checks, immutable audit trail. IBM watsonx.ai for Java static analysis.
+`Spring Boot` `watsonx.ai` `JavaParser` `JWT`
+
+**API GUARDIAN** `·` Non-blocking API gateway. Kafka event streaming. Redis-backed rate limiting. Resilience4j circuit breakers. JWT auth. Live React SSE dashboard. Built to survive actual production traffic.
+`Spring Boot` `Kafka` `Redis` `Resilience4j`
+
+---
+
+
+
+---
+
+## ⬡ Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=a1a1aa" width="60%" />
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tyraakj&bg_color=0a0a0f&color=c084fc&line=06b6d4&point=f472b6&area=true&hide_border=true)](https://github.com/tyraakj)
+
+<img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&hide_border=true&count_private=true&title_color=c084fc&icon_color=06b6d4&text_color=e0e0ff&bg_color=0a0a0f" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&hide_border=true&title_color=c084fc&text_color=e0e0ff&bg_color=0a0a0f" width="48%" />
+
 </div>
 
-<br/>
+---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=60&section=header" width="100%"/>
+
+`~/tyraakj $` **git log --oneline --no-mercy**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tyrakj.vercel.app)
+
 </div>
-```eof
-
-### The Next Level (Action Required):
-If you *really* want to blow people's minds, the absolute peak of GitHub READMEs right now is the **Animated Contribution Snake**. It's a literal game of Snake that plays over your contribution graph, eating your commits. 
-
-Because it requires analyzing your private contribution data, I can't generate it directly in Markdown. You have to run it yourself. If you want to add it, let me know and I can write you the exact `snake.yml` GitHub Action file to generate it automatically every night!
