@@ -58,7 +58,7 @@
 ## 📊 Analytics & Consistency
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=6366f1&icon_color=8b5cf6&text_color=a1a1aa" width="48%" />
+  
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tyraakj&theme=transparent&hide_border=true&title_color=6366f1&text_color=a1a1aa&icon_color=8b5cf6&ring=6366f1&fire=8b5cf6&currStreakLabel=a1a1aa" width="48%" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=transparent&hide_border=true&title_color=6366f1&text_color=a1a1aa" width="48%" />
