@@ -1,95 +1,105 @@
 <div align="center">
 
-<!-- Massive Neon Cyberpunk Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=TYRA_JAVED&fontSize=80&fontColor=FF00FF&stroke=00FFFF&strokeWidth=2&desc=FULL_STACK_%2F%2F_WEB3_OPERATIVE&descAlignY=72&descSize=22&descColor=00FFFF" width="100%" />
+# Tyra Javed
+**Backend & Full-Stack Engineer**
 
-<!-- Glitch Terminal Typing -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&height=50&lines=INITIATING_SECURE_CONNECTION...;OVERRIDING_MAINFRAME_PROTOCOLS...;DEPLOYING_PRODUCTION_GRADE_CODE...;ACCESS_GRANTED." alt="Typing Terminal" />
+Building distributed systems, smart contracts, and AI-integrated platforms. <br/>
+Currently pursuing BCA at Somaiya Vidyavihar University.
 
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/LINK-PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=FF00FF)](https://tyrakj.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LINK-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF)](https://www.linkedin.com/in/tyraakj/)
-
-<br/>
-
-<!-- Neon Divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FF00FF&height=2&width=100%"/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-tyrakj.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://tyrakj.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tyraakj-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
+[![Email](https://img.shields.io/badge/Email-tyra191712@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tyra191712@gmail.com)
 
 </div>
 
-<br/>
+---
 
-## ▓▒░ [ CORE_DIRECTIVES ] ░▒▓
-
-> <kbd>SYS.LOG_01</kbd> System architecture must be resilient from commit #001.  
-> <kbd>SYS.LOG_02</kbd> Scalability is a baseline requirement, not a premium feature.  
-> <kbd>SYS.LOG_03</kbd> Eradicating demos. Shipping production-ready monoliths & microservices.  
-
-<br/>
-
-## ▓▒░ [ CYBERNETIC_IMPLANTS ] ░▒▓
-
-**`// CORE_LANGUAGES_&_CLIENT`** <br/>
-<img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00FFFF"/> <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FF00FF"/> <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00FFFF"/> <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=FF00FF"/> <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=00FFFF"/>
-
-**`// BACKEND_&_DATA_GRID`** <br/>
-<img src="https://img.shields.io/badge/Spring_Boot-000000?style=for-the-badge&logo=springboot&logoColor=FF00FF"/> <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=00FFFF"/> <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=FF00FF"/> <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=00FFFF"/> <img src="https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=FF00FF"/>
-
-**`// WEB3_&_NEURAL_NETWORKS`** <br/>
-<img src="https://img.shields.io/badge/Solidity-000000?style=for-the-badge&logo=solidity&logoColor=00FFFF"/> <img src="https://img.shields.io/badge/Ethereum-000000?style=for-the-badge&logo=ethereum&logoColor=FF00FF"/> <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=00FFFF"/>
-
-**`// DEPLOYMENT_INFRA`** <br/>
-<img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonaws&logoColor=FF00FF"/> <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00FFFF"/> <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FF00FF"/>
-
-<br/>
-
-## ▓▒░ [ ACTIVE_BOUNTIES ] ░▒▓
-
-> ### 🟣 **`MISSION_01` : [VAULTED](https://tyrakj.vercel.app)**
-> **TARGET**: Gasless freelance escrow on Base Sepolia.
-> **PAYLOAD**: Payment locks on-chain at job creation. Releases on client approval with a 7-day auto-release dispute mechanism.
-> **GEAR**: <kbd>Solidity</kbd> <kbd>OpenZeppelin</kbd> <kbd>ethers.js</kbd> <kbd>React</kbd>
-
-<br/>
-
-> ### 🔵 **`MISSION_02` : [AGENTIC_COMMERCE_GW](https://tyrakj.vercel.app)**
-> **TARGET**: AI shopping assistant for 11 Indian languages.
-> **PAYLOAD**: Routes natural-language and handwritten orders via LangChain + Sarvam LLMs, with Twilio and Paytm integration.
-> **GEAR**: <kbd>FastAPI</kbd> <kbd>LangChain</kbd> <kbd>React</kbd> <kbd>PostgreSQL</kbd>
-
-<br/>
-
-> ### 🟣 **`MISSION_03` : [CODE_SHERIFF](https://tyrakj.vercel.app)**
-> **TARGET**: 4-layer code security pipeline.
-> **PAYLOAD**: Prompt-injection detection, credential leak scanning, AST-based hallucination checks, immutable audit trail.
-> **GEAR**: <kbd>Spring Boot</kbd> <kbd>IBM watsonx.ai</kbd> <kbd>JavaParser</kbd> <kbd>JWT</kbd>
-
-<br/>
-
-> ### 🔵 **`MISSION_04` : [API_GUARDIAN](https://tyrakj.vercel.app)**
-> **TARGET**: Non-blocking API gateway.
-> **PAYLOAD**: Kafka event streaming, Redis-backed rate limiting, Resilience4j circuit breakers, JWT auth, live React SSE dashboard.
-> **GEAR**: <kbd>Spring Boot</kbd> <kbd>Kafka</kbd> <kbd>Redis</kbd> <kbd>Resilience4j</kbd>
-
-<br/>
-
-## ▓▒░ [ LIVE_TELEMETRY ] ░▒▓
-
-<table align="center" border="0" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=radical&hide_border=true&bg_color=00000000" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=radical&hide_border=true&bg_color=00000000" />
-    </td>
-  </tr>
-</table>
+## 💻 Technical Arsenal
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=2&width=100%"/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer&stroke=FF00FF&strokeWidth=2" width="100%"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,java,python,react,vite,spring,nodejs" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,solidity,aws,docker,supabase,git" />
 </div>
+<br/>
 
+*   **Languages & Frontend:** TypeScript, JavaScript, Java, Python, React, Vite
+*   **Backend Frameworks:** Spring Boot, Spring Web MVC, Spring Security, Hibernate, Node.js
+*   **Data & AI:** PostgreSQL, MySQL, Redis, Apache Kafka (KRaft), IBM watsonx.ai, Supabase
+*   **Web3:** Solidity, Base, ethers.js, OpenZeppelin, ERC-3009
+*   **Infrastructure:** AWS S3, Docker, Bucket4j, Resilience4j, Vercel
+
+---
+
+## 🏗️ Architecture & Featured Projects
+
+*(Click to expand for technical details)*
+
+<details>
+<summary><b>🛡️ API Guardian</b> | <i>Production-Hardened API Gateway</i></summary>
+<br/>
+<blockquote>
+<b>Tech Stack:</b> Spring Boot, Apache Kafka (KRaft), Redis, React, TypeScript, AWS S3, Resilience4j, Bucket4j
+</blockquote>
+
+*   Built a non-blocking reverse proxy on Spring WebClient with a bounded connection pool, hard connect/read timeouts, and token-bucket rate limiting per client IP via Bucket4j + Redis.
+*   Implemented async Kafka event streaming so every proxied request is published without blocking the request thread; consumers apply UUID-based dedup (Redis `SET NX`) for replay-safe analytics counters.
+*   Engineered a real-time SSE dashboard over React (zero polling); daily analytics archived to AWS S3 with Spring Retry and Kafka DLQ on failure.
+*   Added Resilience4j circuit breakers on Redis and S3 with fail-open degradation; JWT auth with Redis blacklist for immediate token revocation on logout.
+<br/>
+</details>
+
+<details>
+<summary><b>⛓️ Vaulted</b> | <i>Gasless Freelance Escrow on Base Sepolia</i></summary>
+<br/>
+<blockquote>
+<b>Tech Stack:</b> React, TypeScript, Solidity, OpenZeppelin, ethers.js, UGF SDK, Base
+</blockquote>
+
+*   Built a decentralized escrow platform where payment locks on-chain at job creation and releases only on client approval, eliminating platform middlemen and the 20% platform cut.
+*   Integrated UGF (Universal Gas Framework) 4-step gasless flow: `wallet login` → `USD quote` → `ERC-3009 signature` → `UGF executes on-chain`; freelancers need zero ETH.
+*   Authored `Escrow.sol` on OpenZeppelin with 7-day auto-release (anti-hostage), on-chain caller identity enforcement, and dispute state machine (`Open` → `Active` → `Complete/Released` or `Disputed`).
+*   Architected 'read with ethers, write with UGF' separation across custom hooks (`useWallet`, `useUGF`, `useContract`) to prevent MetaMask from demanding native gas on any write path.
+<br/>
+</details>
+
+<details>
+<summary><b>🤖 CodeSheriff</b> | <i>AI-Powered Code Security Platform</i></summary>
+<br/>
+<blockquote>
+<b>Tech Stack:</b> Spring Boot, React, IBM watsonx.ai (Llama 3 70B), PostgreSQL/Supabase, JavaParser, JWT
+</blockquote>
+
+*   Architected a 4-layer security pipeline: prompt injection detection (20+ patterns), credential leak scanning (13 secret types incl. AWS/GitHub/JWT), AI hallucination validation via AST diff, and an immutable audit trail.
+*   Integrated IBM watsonx.ai for method-level Java analysis: cyclomatic complexity, test coverage suggestions, and confidence scoring with AST-level validation against JavaParser output to catch hallucinations.
+*   Designed enterprise features: multi-tenant row-level security (RLS), JWT auth, 100 req/min token-bucket rate limiting, paginated REST API across 11 endpoints, and 8 JPA entities across 8,371 lines of production code.
+<br/>
+</details>
+
+---
+
+## 🌐 Open Source & Education
+
+*   🎓 **BCA (Bachelor of Computer Applications)** - Somaiya Vidyavihar University *(GPA: 10.0/10.0 | 2025-2028)*
+*   🌟 **Winter of Code 5.0 (GDG on Campus, IIIT Kalyani)** - Contributed an authentication service feature to an open-source project in Node.js. Collaborated with maintainers across the month-long program, gaining hands-on OS workflow and code review experience.
+*   🏆 **Certifications:** 
+    *   Machine Learning with Python *(IBM)* 
+    *   Intro to Software Engineering *(IBM)* 
+    *   Oracle Java Foundations *(Oracle)*
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=transparent&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=transparent&hide_border=true" width="48%" />
+</div>
+```eof
+
+### Key Updates:
+1.  **Interactive Menus:** I used the HTML `<details>` and `<summary>` tags for your projects. This allows visitors to see a high-level view of your project titles, but they can physically click on them to drop down a detailed breakdown of your system architecture.
+2.  **Extremely Detailed:** The contents of those dropdowns pull directly from the deep technical metrics in your resume (e.g., mentioning *Kafka KRaft*, *Redis SET NX*, *AST diffs*, etc.). 
+3.  **Clean & Standardized:** It respects GitHub's markdown best practices, ensuring it formats perfectly on both mobile and desktop. 
+4.  **Experience Removed:** All previous job roles have been omitted, emphasizing your heavy technical projects and open-source work instead.
 
