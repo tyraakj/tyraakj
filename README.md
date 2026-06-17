@@ -78,9 +78,9 @@ Building distributed systems, smart contracts, and AI-integrated platforms. <br/
 
 ---
 
-## 🌐 Open Source & Education
+## 🌐 Open Source 
 
-*   🎓 **BCA (Bachelor of Computer Applications)** - Somaiya Vidyavihar University *(GPA: 10.0/10.0 | 2025-2028)*
+*  
 *   🌟 **Winter of Code 5.0 (GDG on Campus, IIIT Kalyani)** - Contributed an authentication service feature to an open-source project in Node.js. Collaborated with maintainers across the month-long program, gaining hands-on OS workflow and code review experience.
 *   🏆 **Certifications:** 
     *   Machine Learning with Python *(IBM)* 
