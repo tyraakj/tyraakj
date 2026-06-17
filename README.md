@@ -1,10 +1,10 @@
 <div align="center">
 
 # Tyra Javed
-**Backend & Full-Stack Engineer**
+**Full-Stack Engineer**
 
 Building distributed systems, smart contracts, and AI-integrated platforms. <br/>
-Currently pursuing BCA at Somaiya Vidyavihar University.
+
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-tyrakj.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://tyrakj.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tyraakj-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
