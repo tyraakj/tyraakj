@@ -1,11 +1,6 @@
-<!-- Header Wave -->
+<!-- Constellation Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,50:7c3aed,100:4f46e5&height=220&section=header&text=Tyra%20Kj&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Distributed%20Systems%20·%20Web3%20·%20AI%20Infrastructure&descAlignY=58&descSize=20&animation=fadeIn" width="100%" />
-</p>
-
-<!-- Typing SVG -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Full-stack+engineer+who+ships+end+to+end;Crafting+pixel-perfect+React+interfaces;Building+distributed+systems+at+scale;Crafting+gasless+Web3+protocols;Shipping+privacy-first+AI+infrastructure;Designing+reproducible+evaluation+harnesses" alt="Typing SVG" />
+  <img src="./header.svg" width="100%" alt="constellation header" />
 </p>
 
 <br>
