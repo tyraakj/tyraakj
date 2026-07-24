@@ -1,11 +1,13 @@
-<!-- Constellation Header -->
+<!-- ╔══════════════════════════════════════════════╗ -->
+<!-- ║          CONSTELLATION HEADER               ║ -->
+<!-- ╚══════════════════════════════════════════════╝ -->
 <p align="center">
   <img src="./header.svg" width="100%" alt="constellation header" />
 </p>
 
 <br>
 
-<!-- Quick Bio -->
+<!-- Quick Bio terminal box -->
 <div align="center">
 
 ```
@@ -20,10 +22,10 @@
 
 </div>
 
----
+<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ## 🌌 Who I Am
-
 
 I'm a **full-stack engineer** who ships end-to-end — from polished React interfaces to the distributed systems and on-chain protocols powering them. I care as much about the pixel as the packet.
 
@@ -35,9 +37,8 @@ I think deeply about:
 
 When I'm not shipping code, I'm usually designing interfaces, reading whitepapers, or auditing smart contracts.
 
-<br clear="right"/>
-
----
+<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ## 🛠️ Tech Stack
 
@@ -65,10 +66,10 @@ When I'm not shipping code, I'm usually designing interfaces, reading whitepaper
 
 </div>
 
----
+<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ## 🚀 Featured Projects
-
 
 ### 🔒 Privacy & Semantic Cache Proxy
 
@@ -93,7 +94,8 @@ Response ← Streaming Unmask ← Redis Rehydration ← Raw Response
 **Stack:** `LiteLLM` · `Presidio` · `Redis` · `Qdrant` · `Python`  
 📖 [Architecture Deep-Dive](https://github.com/tyraakj/privacy-semantic-cache-proxy/blob/main/ARCHITECTURE.md) · 🔗 [View Repo](https://github.com/tyraakj/privacy-semantic-cache-proxy)
 
----
+<!-- ─── MINI DIVIDER ─────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ### 🔬 Evaluation Harness Pipeline
 
@@ -118,7 +120,8 @@ Task Registry → Trial Executor → Evidence Capture → Grader Suite
 **Stack:** `Python` · `LangGraph` · `OpenTelemetry` · `DSPy`  
 📖 [Architecture Deep-Dive](https://github.com/tyraakj/eval-harness-pipeline/blob/main/docs/ARCHITECTURE.md) · 🔗 [View Repo](https://github.com/tyraakj/eval-harness-pipeline)
 
----
+<!-- ─── MINI DIVIDER ─────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ### ⛓️ Vaulted — Gasless Freelance Escrow
 
@@ -141,7 +144,8 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 **Stack:** `React` · `Solidity` · `ethers.js` · `UGF SDK` · `OpenZeppelin`  
 🔗 [View Repo](https://github.com/tyraakj/Vaulted)
 
----
+<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ## 📊 GitHub Stats
 
@@ -169,7 +173,8 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 
 </div>
 
----
+<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ## 🏅 Open Source & Certifications
 
@@ -184,7 +189,8 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 
 </div>
 
----
+<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
+<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
 ## 💭 Philosophy
 
@@ -194,12 +200,10 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 
 </div>
 
----
-
-<!-- Footer Wave -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,50:7c3aed,100:6d28d9&height=130&section=footer" width="100%" />
-</p>
+<!-- ╔══════════════════════════════════════════════╗ -->
+<!-- ║          CONSTELLATION FOOTER               ║ -->
+<!-- ╚══════════════════════════════════════════════╝ -->
+<p align="center"><img src="./footer.svg" width="100%" alt="constellation footer" /></p>
 
 <div align="center">
 

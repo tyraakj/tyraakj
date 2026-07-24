@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="900" height="130">
+  <defs>
+    <style>
+      @keyframes tw1 { 0%,100%{opacity:.9} 50%{opacity:.25} }
+      @keyframes tw2 { 0%,100%{opacity:.5} 50%{opacity:1}   }
+      @keyframes tw3 { 0%,100%{opacity:.7} 50%{opacity:.15} }
+      @keyframes fl1 { 0%,100%{opacity:0} 40%,60%{opacity:.35} }
+      @keyframes fl2 { 0%,25%{opacity:0} 55%,70%{opacity:.25} 100%{opacity:0} }
+      @keyframes fl3 { 0%,60%{opacity:0} 80%,90%{opacity:.3} 100%{opacity:0} }
+      @keyframes riseIn { 0%{opacity:0;transform:translateY(8px)} 100%{opacity:1;transform:translateY(0)} }
+      .s1{animation:tw1 3.1s ease-in-out infinite}
+      .s2{animation:tw2 4.4s ease-in-out infinite}
+      .s3{animation:tw3 2.7s ease-in-out infinite}
+      .s4{animation:tw1 5.0s ease-in-out infinite}
+      .s5{animation:tw2 3.6s ease-in-out infinite}
+      .l1{animation:fl1 6.5s ease-in-out infinite}
+      .l2{animation:fl2 8.0s ease-in-out infinite}
+      .l3{animation:fl3 5.5s ease-in-out infinite}
+      .l4{animation:fl1 7.2s ease-in-out infinite 1.5s}
+      .l5{animation:fl2 9.0s ease-in-out infinite 2.0s}
+      .tagline{animation:riseIn .8s ease-out .2s both}
+    </style>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#050010"/>
+      <stop offset="50%"  stop-color="#0d0020"/>
+      <stop offset="100%" stop-color="#050010"/>
+    </linearGradient>
+    <!-- Top edge fade so it blends into content above -->
+    <linearGradient id="ftop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#0d0020" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#0d0020" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="130" fill="url(#fbg)"/>
+  <!-- Fade top edge -->
+  <rect width="900" height="130" fill="url(#ftop)"/>
+
+  <!-- ── LEFT CLUSTER ── -->
+  <line x1="40"  y1="55" x2="90"  y2="90" stroke="#7c3aed" stroke-width=".8" class="l1"/>
+  <line x1="90"  y1="90" x2="55"  y2="115" stroke="#6d28d9" stroke-width=".8" class="l2"/>
+  <line x1="40"  y1="55" x2="130" y2="70" stroke="#8b5cf6" stroke-width=".7" class="l3"/>
+  <line x1="130" y1="70" x2="90"  y2="90" stroke="#7c3aed" stroke-width=".7" class="l4"/>
+
+  <circle cx="40"  cy="55"  r="2.0" fill="#c4b5fd" class="s1"/>
+  <circle cx="90"  cy="90"  r="2.5" fill="#a78bfa" class="s2"/>
+  <circle cx="55"  cy="115" r="1.6" fill="#8b5cf6" class="s3"/>
+  <circle cx="130" cy="70"  r="1.8" fill="#c4b5fd" class="s4"/>
+  <circle cx="10"  cy="100" r="1.2" fill="#a78bfa" class="s5"/>
+
+  <!-- ── RIGHT CLUSTER ── -->
+  <line x1="860" y1="55" x2="810" y2="90" stroke="#7c3aed" stroke-width=".8" class="l2"/>
+  <line x1="810" y1="90" x2="845" y2="115" stroke="#6d28d9" stroke-width=".8" class="l1"/>
+  <line x1="860" y1="55" x2="770" y2="70" stroke="#8b5cf6" stroke-width=".7" class="l5"/>
+  <line x1="770" y1="70" x2="810" y2="90" stroke="#7c3aed" stroke-width=".7" class="l3"/>
+
+  <circle cx="860" cy="55"  r="2.0" fill="#c4b5fd" class="s2"/>
+  <circle cx="810" cy="90"  r="2.5" fill="#a78bfa" class="s1"/>
+  <circle cx="845" cy="115" r="1.6" fill="#8b5cf6" class="s4"/>
+  <circle cx="770" cy="70"  r="1.8" fill="#c4b5fd" class="s3"/>
+  <circle cx="890" cy="100" r="1.2" fill="#a78bfa" class="s5"/>
+
+  <!-- ── SCATTERED STARS ── -->
+  <circle cx="250" cy="45"  r="1.0" fill="#a78bfa" class="s3"/>
+  <circle cx="310" cy="110" r="1.2" fill="#c4b5fd" class="s1"/>
+  <circle cx="370" cy="60"  r="1.0" fill="#8b5cf6" class="s4"/>
+  <circle cx="530" cy="115" r="1.2" fill="#a78bfa" class="s2"/>
+  <circle cx="590" cy="50"  r="1.0" fill="#c4b5fd" class="s5"/>
+  <circle cx="650" cy="105" r="1.1" fill="#8b5cf6" class="s3"/>
+
+  <!-- ── TAGLINE ── -->
+  <text
+    x="450" y="78"
+    text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="12"
+    font-weight="400"
+    letter-spacing="6"
+    fill="#6d28d9"
+    filter="url(#glow)"
+    class="tagline">
+    · · · tyraakj · · ·
+  </text>
+</svg>
