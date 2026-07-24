@@ -29,7 +29,6 @@
 
 ## 🌌 Who I Am
 
-<img align="right" src="https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/animated%20(10).webp" width="340" alt="hero" />
 
 I'm a **full-stack engineer** who ships end-to-end — from polished React interfaces to the distributed systems and on-chain protocols powering them. I care as much about the pixel as the packet.
 
@@ -75,11 +74,6 @@ When I'm not shipping code, I'm usually designing interfaces, reading whitepaper
 
 ## 🚀 Featured Projects
 
-<div align="center">
-  <img src="https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/animated%20(33).webp" width="600" alt="projects preview" />
-</div>
-
-<br>
 
 ### 🔒 Privacy & Semantic Cache Proxy
 
