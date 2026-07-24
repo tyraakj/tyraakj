@@ -30,8 +30,8 @@ When I'm not shipping code, I'm usually designing interfaces, reading whitepaper
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,java,python,react,vite,tailwind,nodejs&theme=dark" /><br/>
-<img src="https://skillicons.dev/icons?i=spring,postgres,redis,kafka,solidity,aws,docker,supabase&theme=dark" /><br/>
+<img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,vite,tailwind,nodejs&theme=dark" /><br/>
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,kafka,solidity,aws,docker,supabase&theme=dark" /><br/>
 <img src="https://skillicons.dev/icons?i=git,github,vercel,figma,linux,vscode&theme=dark" />
 
 </div>
@@ -42,13 +42,13 @@ When I'm not shipping code, I'm usually designing interfaces, reading whitepaper
 
 | Category | Technologies |
 |:---|:---|
-| **Languages** | TypeScript · JavaScript · Java · Python · Solidity |
-| **Frontend** | React · Vite · TailwindCSS |
-| **Backend** | Spring Boot · Spring Security · Hibernate · Node.js |
-| **AI & Data** | LangGraph · DSPy · IBM watsonx.ai · Presidio · OpenTelemetry |
-| **Databases** | PostgreSQL · MySQL · Redis · Qdrant · Supabase |
-| **Web3** | Base · ethers.js · OpenZeppelin · ERC-3009 · UGF SDK |
-| **Infra** | AWS S3 · Docker · Apache Kafka · Resilience4j · Bucket4j · Vercel |
+| **Languages** | TypeScript · JavaScript · Python · Solidity |
+| **Frontend** | React · Next.js · Vite · TailwindCSS |
+| **Backend** | FastAPI · Node.js · LangGraph · OpenTelemetry |
+| **AI & LLMs** | OpenAI API · Anthropic API · LiteLLM · DSPy · Presidio |
+| **Databases** | PostgreSQL · Redis · Qdrant · Pinecone · Supabase |
+| **Web3** | Base · ethers.js · OpenZeppelin · Hardhat · ERC-3009 · UGF SDK |
+| **Infra** | AWS S3 · Docker · Apache Kafka · Vercel |
 
 </div>
 
