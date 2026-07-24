@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 90" width="265" height="90">
+  <defs>
+    <style>
+      @keyframes tw  { 0%,100%{opacity:.9} 50%{opacity:.2} }
+      @keyframes tw2 { 0%,100%{opacity:.5} 50%{opacity:1}  }
+      .s1{animation:tw  3.6s ease-in-out infinite}
+      .s2{animation:tw2 4.2s ease-in-out infinite}
+      .s3{animation:tw  5.0s ease-in-out infinite}
+    </style>
+    <filter id="frost" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff"  stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0a66c2"  stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="35%"  stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="65%"  stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="iconbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0a66c2" stop-opacity="0.50"/>
+      <stop offset="100%" stop-color="#004182" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="230" cy="20" r="1.2" fill="#bfdbfe" class="s1"/>
+  <circle cx="245" cy="58" r="1.0" fill="#93c5fd" class="s2"/>
+  <circle cx="15"  cy="18" r="1.1" fill="#bfdbfe" class="s3"/>
+  <circle cx="18"  cy="68" r="0.9" fill="#60a5fa" class="s1"/>
+
+  <rect x="1" y="1" width="263" height="88" rx="18" fill="#001830" fill-opacity="0.75" filter="url(#frost)"/>
+  <rect x="1" y="1" width="263" height="88" rx="18" fill="url(#glass)"/>
+  <rect x="1" y="1" width="263" height="88" rx="18" fill="none" stroke="#5b9bd5" stroke-width="1" stroke-opacity="0.45"/>
+  <rect x="22" y="1.5" width="221" height="2" rx="1" fill="url(#shine)"/>
+
+  <circle cx="48" cy="45" r="24" fill="url(#iconbg)"/>
+  <circle cx="48" cy="45" r="24" fill="none" stroke="#5b9bd5" stroke-width="0.8" stroke-opacity="0.50"/>
+  <text x="48" y="51" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#ffffff" fill-opacity="0.9">in</text>
+
+  <text x="88" y="37" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" letter-spacing="2.5" fill="#5b9bd5">LINKEDIN</text>
+  <text x="88" y="56" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="500" fill="#f0f9ff">tyraakj</text>
+  <text x="88" y="72" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#0a66c2" fill-opacity="0.80">↗ connect</text>
+</svg>

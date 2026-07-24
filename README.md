@@ -151,12 +151,12 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7c3aed&icon_color=7c3aed&text_color=c9d1d9" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7c3aed&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9" width="48%" />
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tyraakj&theme=tokyonight&hide_border=true&background=0d1117&ring=7c3aed&fire=a855f7&currStreakLabel=7c3aed" width="60%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=tyraakj&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=60a5fa&currStreakLabel=3b82f6" width="60%" />
 
 </div>
 
@@ -176,27 +176,16 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 <!-- ─── DIVIDER ─────────────────────────────────────────────── -->
 <p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
-## 🏅 Open Source & Certifications
+## 🤝 Let's Connect
 
+<!-- Glassmorphism contact cards -->
 <div align="center">
 
-| Experience | Details |
-|:---|:---|
-| 🌱 **Winter of Code 5.0** — GDG on Campus, IIIT Kalyani | Contributed an authentication service feature to an open-source Node.js project over a month-long collaboration with maintainers |
-| 🤖 **IBM — Machine Learning with Python** | Certification |
-| 💻 **IBM — Intro to Software Engineering** | Certification |
-| ☕ **Oracle — Java Foundations** | Certification |
-
-</div>
-
-<!-- ─── DIVIDER ─────────────────────────────────────────────── -->
-<p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
-
-## 💭 Philosophy
-
-<div align="center">
-
-> *"The best systems are the ones that make hard constraints invisible to the user — gasless transactions, redacted PII, reproducible evaluations. The complexity should live in the architecture, not in the interface."*
+<a href="https://tyrakj.vercel.app"><img src="./card_portfolio.svg" height="90" alt="Portfolio" /></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/tyraakj/"><img src="./card_linkedin.svg" height="90" alt="LinkedIn" /></a>
+&nbsp;&nbsp;&nbsp;
+<a href="mailto:tyra191712@gmail.com"><img src="./card_email.svg" height="90" alt="Email" /></a>
 
 </div>
 
@@ -207,12 +196,6 @@ Client posts job → Escrow.sol locks USDC on-chain → Freelancer delivers
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-tyrakj.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tyrakj.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tyraakj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
-[![Email](https://img.shields.io/badge/Email-tyra191712@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tyra191712@gmail.com)
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=tyraakj&color=7c3aed&style=flat-square&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=tyraakj&color=3b82f6&style=flat-square&label=Profile+Views)
 
 </div>

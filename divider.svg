@@ -18,60 +18,55 @@
       .l4{animation:fl1 7.0s ease-in-out infinite 1.5s}
       .l5{animation:fl2 9.0s ease-in-out infinite 2.0s}
     </style>
-    <!-- Horizontal glow line gradient -->
     <linearGradient id="hg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#4f46e5" stop-opacity="0"/>
-      <stop offset="15%"  stop-color="#7c3aed" stop-opacity="0.5"/>
-      <stop offset="50%"  stop-color="#a855f7" stop-opacity="0.7"/>
-      <stop offset="85%"  stop-color="#7c3aed" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#1d4ed8" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="50%"  stop-color="#60a5fa" stop-opacity="0.7"/>
+      <stop offset="85%"  stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <!-- Glowing horizontal rule -->
   <line x1="0" y1="26" x2="900" y2="26" stroke="url(#hg)" stroke-width="1"/>
 
-  <!-- ── LEFT CLUSTER ── -->
-  <line x1="55"  y1="12" x2="95"  y2="28" stroke="#7c3aed" stroke-width=".8" class="l1"/>
-  <line x1="95"  y1="28" x2="135" y2="14" stroke="#6d28d9" stroke-width=".8" class="l2"/>
-  <line x1="135" y1="14" x2="170" y2="32" stroke="#7c3aed" stroke-width=".8" class="l3"/>
-  <line x1="55"  y1="12" x2="135" y2="14" stroke="#8b5cf6" stroke-width=".6" class="l5"/>
+  <!-- Left cluster -->
+  <line x1="55"  y1="12" x2="95"  y2="28" stroke="#3b82f6" stroke-width=".8" class="l1"/>
+  <line x1="95"  y1="28" x2="135" y2="14" stroke="#1d4ed8" stroke-width=".8" class="l2"/>
+  <line x1="135" y1="14" x2="170" y2="32" stroke="#3b82f6" stroke-width=".8" class="l3"/>
+  <line x1="55"  y1="12" x2="135" y2="14" stroke="#60a5fa" stroke-width=".6" class="l5"/>
+  <circle cx="55"  cy="12" r="2.2" fill="#bfdbfe" class="s1"/>
+  <circle cx="95"  cy="28" r="2.5" fill="#93c5fd" class="s2"/>
+  <circle cx="135" cy="14" r="1.8" fill="#60a5fa" class="s3"/>
+  <circle cx="170" cy="32" r="1.6" fill="#bfdbfe" class="s4"/>
 
-  <circle cx="55"  cy="12" r="2.2" fill="#c4b5fd" class="s1"/>
-  <circle cx="95"  cy="28" r="2.5" fill="#a78bfa" class="s2"/>
-  <circle cx="135" cy="14" r="1.8" fill="#8b5cf6" class="s3"/>
-  <circle cx="170" cy="32" r="1.6" fill="#c4b5fd" class="s4"/>
+  <!-- Left-mid faint stars -->
+  <circle cx="250" cy="10" r="1.1" fill="#93c5fd" class="s5"/>
+  <circle cx="290" cy="40" r="1.0" fill="#bfdbfe" class="s3"/>
+  <circle cx="330" cy="18" r="1.3" fill="#60a5fa" class="s1"/>
 
-  <!-- ── LEFT-MID faint stars ── -->
-  <circle cx="250" cy="10" r="1.1" fill="#a78bfa" class="s5"/>
-  <circle cx="290" cy="40" r="1.0" fill="#c4b5fd" class="s3"/>
-  <circle cx="330" cy="18" r="1.3" fill="#8b5cf6" class="s1"/>
+  <!-- Center diamond -->
+  <line x1="425" y1="10" x2="450" y2="26" stroke="#60a5fa" stroke-width=".9" class="l2"/>
+  <line x1="450" y1="26" x2="475" y2="10" stroke="#3b82f6" stroke-width=".9" class="l2"/>
+  <line x1="425" y1="42" x2="450" y2="26" stroke="#60a5fa" stroke-width=".9" class="l1"/>
+  <line x1="450" y1="26" x2="475" y2="42" stroke="#3b82f6" stroke-width=".9" class="l1"/>
+  <circle cx="425" cy="10" r="1.6" fill="#bfdbfe" class="s2"/>
+  <circle cx="475" cy="10" r="1.6" fill="#93c5fd" class="s4"/>
+  <circle cx="450" cy="26" r="3.0" fill="#3b82f6" class="s1"/>
+  <circle cx="425" cy="42" r="1.6" fill="#60a5fa" class="s3"/>
+  <circle cx="475" cy="42" r="1.6" fill="#bfdbfe" class="s5"/>
 
-  <!-- ── CENTER DIAMOND ── -->
-  <line x1="425" y1="10" x2="450" y2="26" stroke="#8b5cf6" stroke-width=".9" class="l2"/>
-  <line x1="450" y1="26" x2="475" y2="10" stroke="#7c3aed" stroke-width=".9" class="l2"/>
-  <line x1="425" y1="42" x2="450" y2="26" stroke="#8b5cf6" stroke-width=".9" class="l1"/>
-  <line x1="450" y1="26" x2="475" y2="42" stroke="#7c3aed" stroke-width=".9" class="l1"/>
+  <!-- Right-mid faint stars -->
+  <circle cx="570" cy="38" r="1.0" fill="#93c5fd" class="s4"/>
+  <circle cx="610" cy="14" r="1.3" fill="#bfdbfe" class="s2"/>
+  <circle cx="650" cy="42" r="1.1" fill="#60a5fa" class="s3"/>
 
-  <circle cx="425" cy="10" r="1.6" fill="#c4b5fd" class="s2"/>
-  <circle cx="475" cy="10" r="1.6" fill="#a78bfa" class="s4"/>
-  <circle cx="450" cy="26" r="3.0" fill="#7c3aed" class="s1"/>
-  <circle cx="425" cy="42" r="1.6" fill="#8b5cf6" class="s3"/>
-  <circle cx="475" cy="42" r="1.6" fill="#c4b5fd" class="s5"/>
-
-  <!-- ── RIGHT-MID faint stars ── -->
-  <circle cx="570" cy="38" r="1.0" fill="#a78bfa" class="s4"/>
-  <circle cx="610" cy="14" r="1.3" fill="#c4b5fd" class="s2"/>
-  <circle cx="650" cy="42" r="1.1" fill="#8b5cf6" class="s3"/>
-
-  <!-- ── RIGHT CLUSTER ── -->
-  <line x1="730" y1="14" x2="765" y2="32" stroke="#7c3aed" stroke-width=".8" class="l3"/>
-  <line x1="765" y1="32" x2="805" y2="12" stroke="#6d28d9" stroke-width=".8" class="l4"/>
-  <line x1="805" y1="12" x2="845" y2="30" stroke="#7c3aed" stroke-width=".8" class="l5"/>
-  <line x1="730" y1="14" x2="805" y2="12" stroke="#8b5cf6" stroke-width=".6" class="l1"/>
-
-  <circle cx="730" cy="14" r="1.6" fill="#c4b5fd" class="s5"/>
-  <circle cx="765" cy="32" r="2.5" fill="#a78bfa" class="s1"/>
-  <circle cx="805" cy="12" r="2.0" fill="#8b5cf6" class="s2"/>
-  <circle cx="845" cy="30" r="2.2" fill="#c4b5fd" class="s4"/>
+  <!-- Right cluster -->
+  <line x1="730" y1="14" x2="765" y2="32" stroke="#3b82f6" stroke-width=".8" class="l3"/>
+  <line x1="765" y1="32" x2="805" y2="12" stroke="#1d4ed8" stroke-width=".8" class="l4"/>
+  <line x1="805" y1="12" x2="845" y2="30" stroke="#3b82f6" stroke-width=".8" class="l5"/>
+  <line x1="730" y1="14" x2="805" y2="12" stroke="#60a5fa" stroke-width=".6" class="l1"/>
+  <circle cx="730" cy="14" r="1.6" fill="#bfdbfe" class="s5"/>
+  <circle cx="765" cy="32" r="2.5" fill="#93c5fd" class="s1"/>
+  <circle cx="805" cy="12" r="2.0" fill="#60a5fa" class="s2"/>
+  <circle cx="845" cy="30" r="2.2" fill="#bfdbfe" class="s4"/>
 </svg>

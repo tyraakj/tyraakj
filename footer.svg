@@ -21,14 +21,13 @@
       .tagline{animation:riseIn .8s ease-out .2s both}
     </style>
     <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#050010"/>
-      <stop offset="50%"  stop-color="#0d0020"/>
-      <stop offset="100%" stop-color="#050010"/>
+      <stop offset="0%"   stop-color="#000a18"/>
+      <stop offset="50%"  stop-color="#001230"/>
+      <stop offset="100%" stop-color="#000a18"/>
     </linearGradient>
-    <!-- Top edge fade so it blends into content above -->
     <linearGradient id="ftop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#0d0020" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#0d0020" stop-opacity="1"/>
+      <stop offset="0%"  stop-color="#001230" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#001230" stop-opacity="1"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
@@ -36,54 +35,41 @@
     </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="900" height="130" fill="url(#fbg)"/>
-  <!-- Fade top edge -->
   <rect width="900" height="130" fill="url(#ftop)"/>
 
-  <!-- ── LEFT CLUSTER ── -->
-  <line x1="40"  y1="55" x2="90"  y2="90" stroke="#7c3aed" stroke-width=".8" class="l1"/>
-  <line x1="90"  y1="90" x2="55"  y2="115" stroke="#6d28d9" stroke-width=".8" class="l2"/>
-  <line x1="40"  y1="55" x2="130" y2="70" stroke="#8b5cf6" stroke-width=".7" class="l3"/>
-  <line x1="130" y1="70" x2="90"  y2="90" stroke="#7c3aed" stroke-width=".7" class="l4"/>
+  <!-- Left cluster -->
+  <line x1="40"  y1="55" x2="90"  y2="90" stroke="#3b82f6" stroke-width=".8" class="l1"/>
+  <line x1="90"  y1="90" x2="55"  y2="115" stroke="#1d4ed8" stroke-width=".8" class="l2"/>
+  <line x1="40"  y1="55" x2="130" y2="70" stroke="#60a5fa" stroke-width=".7" class="l3"/>
+  <line x1="130" y1="70" x2="90"  y2="90" stroke="#3b82f6" stroke-width=".7" class="l4"/>
+  <circle cx="40"  cy="55"  r="2.0" fill="#bfdbfe" class="s1"/>
+  <circle cx="90"  cy="90"  r="2.5" fill="#93c5fd" class="s2"/>
+  <circle cx="55"  cy="115" r="1.6" fill="#60a5fa" class="s3"/>
+  <circle cx="130" cy="70"  r="1.8" fill="#bfdbfe" class="s4"/>
+  <circle cx="10"  cy="100" r="1.2" fill="#93c5fd" class="s5"/>
 
-  <circle cx="40"  cy="55"  r="2.0" fill="#c4b5fd" class="s1"/>
-  <circle cx="90"  cy="90"  r="2.5" fill="#a78bfa" class="s2"/>
-  <circle cx="55"  cy="115" r="1.6" fill="#8b5cf6" class="s3"/>
-  <circle cx="130" cy="70"  r="1.8" fill="#c4b5fd" class="s4"/>
-  <circle cx="10"  cy="100" r="1.2" fill="#a78bfa" class="s5"/>
+  <!-- Right cluster -->
+  <line x1="860" y1="55" x2="810" y2="90" stroke="#3b82f6" stroke-width=".8" class="l2"/>
+  <line x1="810" y1="90" x2="845" y2="115" stroke="#1d4ed8" stroke-width=".8" class="l1"/>
+  <line x1="860" y1="55" x2="770" y2="70" stroke="#60a5fa" stroke-width=".7" class="l5"/>
+  <line x1="770" y1="70" x2="810" y2="90" stroke="#3b82f6" stroke-width=".7" class="l3"/>
+  <circle cx="860" cy="55"  r="2.0" fill="#bfdbfe" class="s2"/>
+  <circle cx="810" cy="90"  r="2.5" fill="#93c5fd" class="s1"/>
+  <circle cx="845" cy="115" r="1.6" fill="#60a5fa" class="s4"/>
+  <circle cx="770" cy="70"  r="1.8" fill="#bfdbfe" class="s3"/>
+  <circle cx="890" cy="100" r="1.2" fill="#93c5fd" class="s5"/>
 
-  <!-- ── RIGHT CLUSTER ── -->
-  <line x1="860" y1="55" x2="810" y2="90" stroke="#7c3aed" stroke-width=".8" class="l2"/>
-  <line x1="810" y1="90" x2="845" y2="115" stroke="#6d28d9" stroke-width=".8" class="l1"/>
-  <line x1="860" y1="55" x2="770" y2="70" stroke="#8b5cf6" stroke-width=".7" class="l5"/>
-  <line x1="770" y1="70" x2="810" y2="90" stroke="#7c3aed" stroke-width=".7" class="l3"/>
+  <!-- Scattered -->
+  <circle cx="250" cy="45"  r="1.0" fill="#93c5fd" class="s3"/>
+  <circle cx="310" cy="110" r="1.2" fill="#bfdbfe" class="s1"/>
+  <circle cx="370" cy="60"  r="1.0" fill="#60a5fa" class="s4"/>
+  <circle cx="530" cy="115" r="1.2" fill="#93c5fd" class="s2"/>
+  <circle cx="590" cy="50"  r="1.0" fill="#bfdbfe" class="s5"/>
+  <circle cx="650" cy="105" r="1.1" fill="#60a5fa" class="s3"/>
 
-  <circle cx="860" cy="55"  r="2.0" fill="#c4b5fd" class="s2"/>
-  <circle cx="810" cy="90"  r="2.5" fill="#a78bfa" class="s1"/>
-  <circle cx="845" cy="115" r="1.6" fill="#8b5cf6" class="s4"/>
-  <circle cx="770" cy="70"  r="1.8" fill="#c4b5fd" class="s3"/>
-  <circle cx="890" cy="100" r="1.2" fill="#a78bfa" class="s5"/>
-
-  <!-- ── SCATTERED STARS ── -->
-  <circle cx="250" cy="45"  r="1.0" fill="#a78bfa" class="s3"/>
-  <circle cx="310" cy="110" r="1.2" fill="#c4b5fd" class="s1"/>
-  <circle cx="370" cy="60"  r="1.0" fill="#8b5cf6" class="s4"/>
-  <circle cx="530" cy="115" r="1.2" fill="#a78bfa" class="s2"/>
-  <circle cx="590" cy="50"  r="1.0" fill="#c4b5fd" class="s5"/>
-  <circle cx="650" cy="105" r="1.1" fill="#8b5cf6" class="s3"/>
-
-  <!-- ── TAGLINE ── -->
-  <text
-    x="450" y="78"
-    text-anchor="middle"
-    font-family="'Segoe UI', system-ui, sans-serif"
-    font-size="12"
-    font-weight="400"
-    letter-spacing="6"
-    fill="#6d28d9"
-    filter="url(#glow)"
-    class="tagline">
-    · · · tyraakj · · ·
-  </text>
+  <!-- Tagline -->
+  <text x="450" y="78" text-anchor="middle"
+    font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="400" letter-spacing="6"
+    fill="#1d4ed8" filter="url(#glow)" class="tagline">· · · tyraakj · · ·</text>
 </svg>
