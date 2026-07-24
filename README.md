@@ -1,99 +1,239 @@
 <div align="center">
 
-# Tyra Javed
-**Full-Stack Engineer**
-
-Building distributed systems, smart contracts, and AI-integrated platforms. <br/>
 
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-tyrakj.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://tyrakj.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tyraakj-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tyraakj/)
-[![Email](https://img.shields.io/badge/Email-tyra191712@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tyra191712@gmail.com)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 
----
 
-## 💻 Technical Arsenal
+
+
+<div align="center"> <img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="600" /> </div>
+
+
+
+
+🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,java,python,react,vite,spring,nodejs" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,solidity,aws,docker,supabase,git" />
-</div>
-<br/>
 
-*   **Languages & Frontend:** TypeScript, JavaScript, Java, Python, React, Vite
-*   **Backend Frameworks:** Spring Boot, Spring Web MVC, Spring Security, Hibernate, Node.js
-*   **Data & AI:** PostgreSQL, MySQL, Redis, Apache Kafka (KRaft), IBM watsonx.ai, Supabase
-*   **Web3:** Solidity, Base, ethers.js, OpenZeppelin, ERC-3009
-*   **Infrastructure:** AWS S3, Docker, Bucket4j, Resilience4j, Vercel
+Category
+Technologies
+Languages
+TypeScript, JavaScript, Java, Python
+Frontend
+React, Vite, TailwindCSS
+Backend
+Spring Boot, Spring Security, Hibernate, Node.js
+Data & AI
+PostgreSQL, MySQL, Redis, Apache Kafka, IBM watsonx.ai, Supabase
+Web3
+Solidity, Base, ethers.js, OpenZeppelin, ERC-3009
+Infra & DevOps
+AWS S3, Docker, Resilience4j, Bucket4j, Vercel
 
----
 
-## 🏗️ Architecture & Featured Projects
 
-*(Click to expand for technical details)*
 
-<details>
-<summary><b>🛡️ API Guardian</b> | <i>Production-Hardened API Gateway</i></summary>
-<br/>
-<blockquote>
-<b>Tech Stack:</b> Spring Boot, Apache Kafka (KRaft), Redis, React, TypeScript, AWS S3, Resilience4j, Bucket4j
-</blockquote>
+</div> <div align="center"> <img src="https://skillicons.dev/icons?i=ts,js,java,python,react,vite,spring,nodejs&theme=dark" />
 
-*   Built a non-blocking reverse proxy on Spring WebClient with a bounded connection pool, hard connect/read timeouts, and token-bucket rate limiting per client IP via Bucket4j + Redis.
-*   Implemented async Kafka event streaming so every proxied request is published without blocking the request thread; consumers apply UUID-based dedup (Redis `SET NX`) for replay-safe analytics counters.
-*   Engineered a real-time SSE dashboard over React (zero polling); daily analytics archived to AWS S3 with Spring Retry and Kafka DLQ on failure.
-*   Added Resilience4j circuit breakers on Redis and S3 with fail-open degradation; JWT auth with Redis blacklist for immediate token revocation on logout.
-<br/>
-</details>
 
-<details>
-<summary><b>⛓️ Vaulted</b> | <i>Gasless Freelance Escrow on Base Sepolia</i></summary>
-<br/>
-<blockquote>
-<b>Tech Stack:</b> React, TypeScript, Solidity, OpenZeppelin, ethers.js, UGF SDK, Base
-</blockquote>
+<img src="https://skillicons.dev/icons?i=postgres,redis,kafka,solidity,aws,docker,supabase,git&theme=dark" /> </div>
 
-*   Built a decentralized escrow platform where payment locks on-chain at job creation and releases only on client approval, eliminating platform middlemen and the 20% platform cut.
-*   Integrated UGF (Universal Gas Framework) 4-step gasless flow: `wallet login` → `USD quote` → `ERC-3009 signature` → `UGF executes on-chain`; freelancers need zero ETH.
-*   Authored `Escrow.sol` on OpenZeppelin with 7-day auto-release (anti-hostage), on-chain caller identity enforcement, and dispute state machine (`Open` → `Active` → `Complete/Released` or `Disputed`).
-*   Architected 'read with ethers, write with UGF' separation across custom hooks (`useWallet`, `useUGF`, `useContract`) to prevent MetaMask from demanding native gas on any write path.
-<br/>
-</details>
 
-<details>
-<summary><b>🤖 CodeSheriff</b> | <i>AI-Powered Code Security Platform</i></summary>
-<br/>
-<blockquote>
-<b>Tech Stack:</b> Spring Boot, React, IBM watsonx.ai (Llama 3 70B), PostgreSQL/Supabase, JavaParser, JWT
-</blockquote>
 
-*   Architected a 4-layer security pipeline: prompt injection detection (20+ patterns), credential leak scanning (13 secret types incl. AWS/GitHub/JWT), AI hallucination validation via AST diff, and an immutable audit trail.
-*   Integrated IBM watsonx.ai for method-level Java analysis: cyclomatic complexity, test coverage suggestions, and confidence scoring with AST-level validation against JavaParser output to catch hallucinations.
-*   Designed enterprise features: multi-tenant row-level security (RLS), JWT auth, 100 req/min token-bucket rate limiting, paginated REST API across 11 endpoints, and 8 JPA entities across 8,371 lines of production code.
-<br/>
-</details>
 
----
-
-## 🌐 Open Source 
-
-*  
-*   🌟 **Winter of Code 5.0 (GDG on Campus, IIIT Kalyani)** - Contributed an authentication service feature to an open-source project in Node.js. Collaborated with maintainers across the month-long program, gaining hands-on OS workflow and code review experience.
-*   🏆 **Certifications:** 
-    *   Machine Learning with Python *(IBM)* 
-    *   Intro to Software Engineering *(IBM)* 
-    *   Oracle Java Foundations *(Oracle)*
-
----
-
-## 📊 GitHub Analytics
+📦 Featured Projects
 
 <div align="center">
- 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=transparent&hide_border=true" width="48%" />
+
+Project
+Description
+Tech
+Privacy & Semantic Cache Proxy
+OpenAI-compatible proxy that masks PII, caches semantically-similar queries, and traces exchanges without exposing sensitive data
+LiteLLM, Presidio, Redis, Qdrant, Python
+Evaluation Harness Pipeline
+Executes versioned tasks against AI targets, captures evidence, grades outcomes, and produces reproducible release decisions
+Python, LangGraph, OpenTelemetry, DSPy
+Vaulted
+Gasless freelance escrow on Base Sepolia — payment locks on-chain, no ETH required, UGF handles all gas
+React, Solidity, ethers.js, UGF SDK
+
+
+
+
+</div> <details>
+<summary><b>🔒 Privacy & Semantic Cache Proxy</b> — click to expand</summary>
+  
+
+
+
+An OpenAI-API-compatible proxy that masks PII before it leaves your infrastructure, caches semantically-similar queries to cut inference cost, and traces every exchange without ever exposing sensitive data to the LLM provider or observability tooling.
+
+Layer
+What It Does
+Text Normalization
+NFKC normalize, strip zero-width chars, decode Base64/URL-encoded payloads
+Secrets Engine
+Shannon entropy scan + regex for AWS keys, GitHub tokens, JWTs — deterministic pre-NLP
+PII Masking
+Presidio-based detection with confidence scoring; masks entities to conversation-scoped Redis map
+Semantic Cache
+Local embedding model → vector similarity search filtered by user_id
+Streaming Unmask
+Custom sliding buffer in during_call/post_call hooks for near-real-time response re-hydration
+
+
+
+
+
+Reading the Architecture: ARCHITECTURE.md
+
+</details> <details>
+<summary><b>🔬 Evaluation Harness Pipeline</b> — click to expand</summary>
+  
+
+
+
+The harness executes versioned tasks against an AI target, captures bounded evidence, grades observable outcomes, compares candidate behavior with a baseline, and produces a reproducible release decision. It is not a model gateway — it owns the outer evaluation loop.
+
+Concept
+Description
+Trial
+One target execution for one case — unique ID, timeout, grades, duration, provenance
+Deterministic Graders
+Own computable truth; optional model judges require calibration
+RAG Contract
+Recall@k, Precision@k, reciprocal rank with explicit thresholds
+Loop Contract
+Iteration ceilings, repeated-node limits, allowed terminal reasons
+Sandbox Provider
+User-supplied isolation — disposable filesystems, browsers, containers
+
+
+
+
+
+Reading the Architecture: ARCHITECTURE.md
+
+</details> <details>
+<summary><b>⛓️ Vaulted</b> — click to expand</summary>
+  
+
+
+
+A gasless freelance escrow platform built on Base Sepolia. Payment is locked on-chain the moment a job is posted, released only on approval, and neither party ever needs ETH — UGF handles all gas fees automatically.
+
+Component
+Details
+Gasless Flow
+login() → quote() → settle() (ERC-3009) → execute() via UGF SDK
+Smart Contract
+Escrow.sol on OpenZeppelin — 7-day auto-release, on-chain identity enforcement, dispute state machine
+Architecture Rule
+"Read with ethers, write with UGF" — prevents MetaMask from demanding native gas on write paths
+Network
+Base Sepolia Testnet · Mock USD (TYI_MOCK_USD)
+
+
+
+
+
+Explore the Code: tyraakj/Vaulted
+
+</details>
+
+
+
+
+<div align="center"> <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/0b335028-1d3d-4ee5-b5b3-a373d499be7e" width="400" /> </div>
+
+
+
+
+📊 GitHub Stats
+
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=tyraakj&show_icons=true&theme=transparent&hide_border=true" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyraakj&layout=compact&theme=transparent&hide_border=true" width="48%" />
+
+
+
+
+
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=tyraakj&theme=transparent&hide_border=true" width="48%" /> </div>
+
+
+
+
+🌐 Open Source & Certifications
+
+Experience
+Details
+Winter of Code 5.0 (GDG on Campus, IIIT Kalyani )
+Contributed an authentication service feature to an open-source Node.js project. Month-long collaboration with maintainers.
+IBM — Machine Learning with Python
+Certification
+IBM — Intro to Software Engineering
+Certification
+Oracle — Java Foundations
+Certification
+
+
+
+
+
+
+
+<div align="center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
+
 
 
