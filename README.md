@@ -5,22 +5,8 @@
   <img src="./header.svg" width="100%" alt="constellation header" />
 </p>
 
-<br>
 
-<!-- Quick Bio terminal box -->
-<div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  🧠  TypeScript · Java · Python · Solidity                       ║
-║  ⚡  Spring Boot · Node.js · LangGraph · OpenTelemetry           ║
-║  ⛓️  Base · ethers.js · OpenZeppelin · ERC-3009                  ║
-║  🔬  Presidio · Redis · Qdrant · Apache Kafka · PostgreSQL       ║
-║  ☁️  AWS S3 · Docker · Supabase · Resilience4j · Vercel          ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
 
 <!-- ─── DIVIDER ─────────────────────────────────────────────── -->
 <p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
