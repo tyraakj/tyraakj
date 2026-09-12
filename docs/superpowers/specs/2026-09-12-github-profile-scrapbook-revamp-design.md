@@ -2,31 +2,34 @@
 
 **Date:** 2026-09-12  
 **Author:** Tyra Kj & Antigravity  
-**Status:** Approved by User  
+**Status:** Approved by User (Updated with Blue & Pink Palette + Real Projects)  
 **Target Repository:** `tyraakj/tyraakj`
 
 ---
 
 ## 1. Overview & Vision
-Transform the `tyraakj` GitHub profile README into an analog-meets-digital scrapbook and engineering dossier. Inspired by Y2K-cyber collage aesthetics, vintage ruled notebook paper, washi tape accents, and neon highlighter markers, this design pairs visual storytelling with high-signal technical case studies for a Full-Stack, AI Systems, and Web3 engineer.
+Transform the `tyraakj` GitHub profile README into an analog-meets-digital scrapbook and high-signal engineering dossier. The visual theme strictly features a **dual Blue & Pink palette** over dark obsidian fluid marble, pairing retro polaroids, washi tape, and ruled index cards with hard-hitting case studies for Solana ephemeral rollups, remote AI agent harnesses, privacy gateways, and gasless protocols.
 
 ---
 
 ## 2. Visual Foundation & Design Tokens
 
-### 2.1 Color Palette
-* **Deep Obsidian Canvas:** `#070a0f` to `#0d1117` (fluid marble contour gradients with subtle constellation sparkles)
-* **Neon Hot Pink:** `#ff3b81` / `#f43f5e` (hand-drawn doodle circles, script headers, pill highlights)
-* **Cyber Cyan / Ice Blue:** `#38bdf8` / `#60a5fa` (marker tape highlights, subtext, link indicators)
-* **Warm Highlighter Yellow:** `#eab308` / `#facc15` (marker tape highlights on philosophy manifesto)
-* **Archival Materials:**
-  * Vintage Ruled Index Card: `#fbf9f4` background with `#e2e8f0` ledger ruling lines
-  * Translucent Washi Tape: `rgba(125, 211, 252, 0.45)` with torn edge paths
-  * Polaroid Frame: Warm photographic cardstock with drop shadow (`rgba(0,0,0,0.5)`)
-  * Push-Pin: 3D crimson red sphere (`#ef4444` gradient) with realistic shadow
+### 2.1 Color Palette (Strictly Blue & Pink)
+* **Canvas Atmosphere:** Deep Obsidian (`#050811` to `#090d16`) with fluid marble waves and glowing blue/pink stardust.
+* **Blue Spectrum:**
+  * Powder Blue / Ice: `#93c5fd` / `#7ea8cc` (marker tape highlights, category titles, borders)
+  * Electric & Sky Blue: `#60a5fa` / `#3b82f6` (cursor bars, active links, contribution squares)
+  * Deep Midnight Navy: `#0f172a` / `#0a1128` (card backgrounds, pill tags)
+* **Pink Spectrum:**
+  * Blush & Rose: `#f472b6` / `#e06287` (soft highlighter tape, script headers, doodle ovals)
+  * Hot / Magenta Pink: `#ec4899` / `#f43f5e` (push-pin, callout arrows, emphasis words)
+  * Deep Plum / Berry: `#2a0e1c` (accent borders, dark badge fills)
+* **Paper & Analog Accents:**
+  * Ruled Index Card: Warm archival paper (`#fbf9f4`) with subtle blue ledger lines (`#e2e8f0`)
+  * Washi Tape: Translucent frosty blue tape (`rgba(147, 197, 253, 0.45)`) and blush pink tape (`rgba(244, 114, 182, 0.45)`)
+  * Push-Pin: 3D berry-pink sphere (`#ec4899` gradient) with realistic shadow
 
 ### 2.2 Typography Stack
-Embedded in SVGs via Google Fonts with system fallbacks:
 * **Script / Handwritten:** `'Caveat', 'Architects Daughter', cursive`
 * **Monospace / Typewriter:** `'Space Mono', 'Courier Prime', 'Courier New', monospace`
 * **Modern Clean Sans:** `'Segoe UI', Inter, -apple-system, sans-serif`
@@ -36,77 +39,89 @@ Embedded in SVGs via Google Fonts with system fallbacks:
 ## 3. Component & Asset Specifications
 
 ### 3.1 Hero Banner (`assets/hero.svg` — 900×360px)
-* **Background:** Obsidian fluid marble waves with sparkling stars.
+* **Background:** Obsidian fluid marble waves with blue and pink stardust particles.
 * **Left — Polaroid Collage (~-4° tilt):**
-  * Tilted photo frame with drop shadow.
-  * Artwork: Retro grainy B&W illustration of a tech girl with over-ear headphones coding at a dual-monitor workstation.
-  * Polaroid caption: `that's me!! ✿` in handwritten script.
+  * Cream polaroid frame with authentic drop shadow.
+  * Artwork: Retro grainy B&W illustration of a tech girl with headphones coding at a dual-monitor workstation.
+  * Caption: `that's me!! ✿` in soft blue/pink script.
   * Stickers:
-    * 🎧 Over-ear studio headphones resting on top-right photo corner.
-    * ⭐ Chalk distressed star sticker on far left.
-    * 🎀 Ribbon bow sticker near bottom corner.
-    * 💻 High-contrast cut-out sticker of hands typing on a laptop overlapping the bottom-right corner.
+    * 🎧 Over-ear studio headphones sticker clipped on the top-right corner.
+    * ⭐ Chalk star & ribbon bow stickers on the left edge.
+    * 💻 Cut-out sticker of hands typing on a laptop overlapping the bottom-right corner.
 * **Right — Mixed Typography & CTAs:**
-  * `hello` + `(there!!)` circled in hot-pink hand-drawn doodle oval.
-  * `Tyra Kj this side, I'm a` in soft ice-blue cursive script.
-  * Three distinct role tags:
-    * `developer` — dark charcoal pill tag with subtle border.
+  * `hello` + `(there!!)` circled in a blush-pink hand-drawn doodle oval.
+  * `Tyra Kj this side, I'm a` in flowing powder-blue script.
+  * Three role tags:
+    * `developer` — dark navy pill with soft blue border.
     * `/`
-    * `ai engineer` — vibrant hot-pink brush italic with pink doodle underline.
+    * `ai infra & agents` — blush pink brush italic with pink doodle underline.
     * `/`
-    * `web3 architect` — clean white uppercase with cyan underline.
-  * Location line: `based in | THE TERMINAL.` with cyan vertical separator.
-  * Action triggers:
-    * `psst... start here ↘` in mini hot-pink script.
-    * Clickable buttons: `|SEE MY WORK` (anchored to `#featured-projects`) and `|DROP ME A LINE` (anchored to `mailto:tyra191712@gmail.com`).
+    * `solana & web3` — crisp white/ice-blue text with powder-blue underline.
+  * Location: `based in | THE TERMINAL.` with an ice-blue vertical separator bar.
+  * Action line:
+    * `psst... start here ↘` in mini pink script.
+    * Clickable button tags: `|SEE MY WORK` (ice-blue cursor bar, linked to `#featured-projects`) and `|DROP ME A LINE` (pink cursor bar, linked to `mailto:tyra191712@gmail.com`).
 
 ### 3.2 Philosophy Manifesto Banner (`assets/manifesto.svg` — 900×160px)
 * Seamless dark fluid marble background matching the hero.
-* Editorial script quotes with realistic vector marker tape overlays:
-  * *"I care as much about the [pixel as the packet] (cyan tape). I love the [messy middle] (pink tape) where ideas turn into systems."*
-  * *"[Design gives it clarity.] (yellow marker tape) Code makes it resilient."*
-  * *"The goal is simple: build things that are fast, private, and [effortless to use.] (cyan tape)"*
+* Authentic, unpretentious narrative tailored to Tyra's actual projects, with alternating **powder-blue** and **blush-pink** highlighter tape:
+  * *"I build systems where [latency, privacy, and sovereignty] (powder-blue tape) actually matter."*
+  * *"From [zero-gas ephemeral rollups] (blush-pink tape) on Solana to [remote AI agent harnesses] (powder-blue tape) and privacy proxies."*
+  * *"The goal is simple: code that is [fast, verifiable, and resilient.] (blush-pink tape)"*
 
 ### 3.3 Skills & Activity Row
 
 #### A. Ruled Index Card (`assets/skills_card.svg` — 540×350px)
-* Lined vintage index card with translucent icy-blue washi tape at top center.
+* Vintage lined index card with torn-edge powder-blue washi tape at top center.
 * Monospace header `SKILLS & TOOLS` on left, folio `28` on top right.
-* 4 Columns with pink script headers and rounded pill tags:
-  1. *Frontend*: `TypeScript`, `React`, `Next.js`, `Tailwind CSS`, `Vite`
-  2. *Backend & Systems*: `FastAPI`, `Node.js`, `PostgreSQL`, `Redis`, `Kafka`, `Docker`
-  3. *AI & LLMs*: `LiteLLM`, `LangGraph`, `DSPy`, `Presidio`, `OpenAI API`, `Qdrant`
-  4. *Web3 & Infra*: `Solidity`, `ethers.js`, `OpenZeppelin`, `Base`, `Hardhat`, `AWS`
+* 4 Columns with alternating Pink and Blue script headers:
+  1. *Frontend* (Pink script) — `TypeScript`, `React`, `Next.js`, `Tailwind CSS`, `React Native`
+  2. *Systems & Backend* (Blue script) — `Rust`, `Anchor`, `FastAPI`, `Node.js`, `Redis`, `Docker`
+  3. *AI & Agent Infra* (Pink script) — `MCP Tools`, `TrueForge`, `LiteLLM`, `Presidio`, `Qdrant`, `WebSockets`
+  4. *Web3 & On-Chain* (Blue script) — `Solana`, `MagicBlock ER`, `Solidity`, `Base`, `ethers.js`, `ERC-3009`
 
 #### B. Pinned Activity Card (`assets/activity_card.svg` — 320×350px)
-* Archival memo card with a 3D red push-pin at top center.
+* Archival memo card with a 3D hot-pink push-pin at top center.
 * Typewriter header: `GITHUB ACTIVITY     YEAR-ROUND`.
-* Contribution heatmap matrix in muted slate, sage, and ice-blue tones.
+* Contribution heatmap matrix in muted blue, pink, and slate squares.
 * Handwritten note: *"Small commits, shipped often."*
 * Footnote: *"Open GitHub for the live contribution graph ↗"*.
-* Crystal sparkle sticker accent at bottom right.
+* Holographic blue/pink sparkle sticker at bottom right.
 
 ### 3.4 Scrapbook Dividers (`assets/divider_grunge.svg` — 900×24px)
-* Subtle torn paper edges with star dust and translucent washi tape seams.
+* Torn dark paper seam with blue and pink stardust trails.
 
-### 3.5 Project Dossiers (Featured Case Studies)
-Presented as technical engineering case dossiers with status tags, ASCII architecture flows, specifications tables, and deep-dive links:
-1. **🔒 Privacy & Semantic Cache Proxy** (`LiteLLM` · `Presidio` · `Redis` · `Qdrant` · `Python`)
-2. **🔬 Evaluation Harness Pipeline** (`Python` · `LangGraph` · `OpenTelemetry` · `DSPy`)
-3. **⛓️ Vaulted — Gasless Freelance Escrow** (`React` · `Solidity` · `ethers.js` · `UGF SDK` · `OpenZeppelin`)
+### 3.5 Project Dossiers (The 4 Flagship Projects)
+Formatted as engineering case dossiers with status tags, ASCII architecture flows, specifications tables, and deep-dive links:
+1. ⚡ **Solaxis** (`Team-Managed/Solaxis`) — Sovereign Serverless Micro-Instance Engine for Solana  
+   *Stack:* `Anchor` · `Rust` · `MagicBlock ER` · `Intel TDX TEE` · `Next.js 15`  
+   *Highlight:* Sub-10ms compute, zero gas, Ephemeral Rollups (ER) & Private Ephemeral Rollups (PER).
+2. 📱 **AirLink** (`Team-Managed/AirLink`) — Remote AI Agent Harness  
+   *Stack:* `React Native` · `Expo` · `MCP Tools` · `TrueForge SDK` · `WebSockets`  
+   *Highlight:* Remotely prompt, stream, and approve local coding agents from mobile with human-in-the-loop safety.
+3. 🔒 **Privacy & Semantic Cache Proxy** (`tyraakj/privacy-semantic-cache-proxy`) — Zero-Leak LLM Gateway  
+   *Stack:* `LiteLLM` · `Presidio` · `Redis` · `Qdrant` · `Python`  
+   *Highlight:* PII masking before third-party egress, streaming unmasking buffer, semantic cache.
+4. ⛓️ **Vaulted** (`tyraakj/Vaulted`) — Gasless Freelance Escrow Protocol  
+   *Stack:* `Solidity` · `Base Sepolia` · `ERC-3009` · `UGF SDK` · `ethers.js`  
+   *Highlight:* Non-custodial 7-day auto-release escrow where neither party needs native ETH for gas.
 
 ### 3.6 Live GitHub Stats & Contribution Snake
-* Custom Tokyo-Night / Obsidian themed stats (`bg_color=070a0f`, `title_color=f43f5e`, `text_color=94a3b8`, `icon_color=38bdf8`).
-* Automated 12-hour Snake Contribution Graph workflow (`.github/workflows/snake.yml`) preserved and integrated.
+* GitHub stats styled in matching obsidian, pink, and blue (`bg_color=050811`, `title_color=f472b6`, `text_color=94a3b8`, `icon_color=60a5fa`, `border_color=1e293b`).
+* Automated Snake Contribution Graph workflow (`.github/workflows/snake.yml`) preserved and integrated.
 
 ### 3.7 Contact Stamps (`assets/card_portfolio.svg`, `card_linkedin.svg`, `card_email.svg`)
-* 3 Perforated postal / holographic sticker stamps for Portfolio (`tyrakj.vercel.app`), LinkedIn (`/in/tyraakj`), and Email (`tyra191712@gmail.com`).
-* Minimal Profile Views counter with `#f43f5e` neon accent.
+* 3 Perforated postal stamps with blue & pink glow:
+  * 🌐 **Portfolio Stamp** (`tyrakj.vercel.app`)
+  * 💼 **LinkedIn Stamp** (`/in/tyraakj`)
+  * ✉️ **Airmail Stamp** (`tyra191712@gmail.com`)
+* Minimal Profile Views badge in pink (`#f472b6`).
 
 ---
 
 ## 4. Acceptance Criteria
-1. All SVGs render cleanly in both GitHub Dark Mode and Light Mode.
-2. The Hero Banner, Manifesto, and Skills/Activity row reproduce the aesthetic from user reference images.
-3. All links (Projects, Deep-Dives, Socials, Email, Snake) are working and accurate.
-4. Existing GitHub Actions (`snake.yml`) remain fully intact and operational.
+1. Strict color discipline: All graphics, cards, highlights, and stats use the Blue & Pink aesthetic.
+2. The 4 real projects (Solaxis, AirLink, Privacy Proxy, Vaulted) are showcased with accurate technical architecture flows and links.
+3. The Manifesto quote reflects real infrastructure & agent engineering without buzzwords.
+4. All SVGs render crisply across both GitHub dark and light modes.
+5. All links, workflows (`snake.yml`), and badges are operational.
