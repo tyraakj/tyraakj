@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap');
+
+      @keyframes twinkle { 0%, 100% { opacity: 0.3; transform: scale(0.8); } 50% { opacity: 1; transform: scale(1.2); } }
+      @keyframes floatSlow { 0%, 100% { transform: translateY(0px) rotate(-4deg); } 50% { transform: translateY(-4px) rotate(-3.5deg); } }
+      @keyframes waveFluid { 0% { transform: translateX(0); } 50% { transform: translateX(-15px); } 100% { transform: translateX(0); } }
+      @keyframes pulseGlow { 0%, 100% { filter: drop-shadow(0 0 4px #60a5fa66); } 50% { filter: drop-shadow(0 0 10px #f472b6aa); } }
+
+      .star-blue { animation: twinkle 3.5s ease-in-out infinite; transform-origin: center; }
+      .star-pink { animation: twinkle 4.2s ease-in-out infinite 1s; transform-origin: center; }
+      .star-fast { animation: twinkle 2.2s ease-in-out infinite 0.5s; transform-origin: center; }
+      .polaroid-group { animation: floatSlow 6s ease-in-out infinite; transform-origin: 180px 180px; }
+      
+      .hand-script { font-family: 'Caveat', cursive, sans-serif; }
+      .mono-text { font-family: 'Space Mono', monospace, 'Courier New'; }
+      .sans-text { font-family: 'Segoe UI', -apple-system, Inter, sans-serif; }
+
+      .btn-hover:hover { opacity: 0.85; cursor: pointer; }
+    </style>
+
+    <!-- Obsidian Fluid Gradients -->
+    <linearGradient id="obsidian-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="45%" stop-color="#090d18" />
+      <stop offset="75%" stop-color="#0d1122" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Fluid Marble Wave Gradients -->
+    <linearGradient id="fluid-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.04" />
+      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.02" />
+    </linearGradient>
+
+    <linearGradient id="fluid-pink" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.03" />
+      <stop offset="50%" stop-color="#f472b6" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#be185d" stop-opacity="0.01" />
+    </linearGradient>
+
+    <!-- Polaroid Shadow Filter -->
+    <filter id="polaroid-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+
+    <!-- Sticker Glow & Shadows -->
+    <filter id="sticker-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.7" />
+    </filter>
+
+    <!-- Grain / Noise Filter for Retro Polaroid -->
+    <filter id="photo-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.18 0" />
+      <feComposite in2="SourceGraphic" in="gl" operator="in" />
+    </filter>
+
+    <!-- Clip Path for Polaroid Photo Area -->
+    <clipPath id="photo-frame-clip">
+      <rect x="0" y="0" width="190" height="190" rx="4" />
+    </clipPath>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="360" fill="url(#obsidian-bg)" />
+
+  <!-- Fluid Marble Waves / Contours -->
+  <path d="M-50,80 Q160,20 380,90 T850,40 Q950,140 880,240 T420,320 Q120,340 -40,280 Z" fill="url(#fluid-blue)" />
+  <path d="M920,60 Q720,130 520,80 T150,220 Q50,300 200,360 T780,340 Q950,280 920,60 Z" fill="url(#fluid-pink)" />
+  <path d="M-20,190 C180,120 320,260 580,180 C740,130 840,230 920,200 L920,360 L-20,360 Z" fill="#04060b" opacity="0.45" />
+
+  <!-- Constellation Lines & Star Sparks -->
+  <g stroke="#60a5fa" stroke-width="0.75" stroke-dasharray="3,3" opacity="0.35">
+    <line x1="430" y1="45" x2="490" y2="70" />
+    <line x1="490" y1="70" x2="560" y2="35" />
+    <line x1="720" y1="50" x2="790" y2="90" />
+    <line x1="790" y1="90" x2="850" y2="40" />
+    <line x1="850" y1="40" x2="870" y2="120" />
+    <line x1="480" y1="310" x2="530" y2="285" />
+    <line x1="530" y1="285" x2="600" y2="320" />
+  </g>
+
+  <!-- Stars (Blue & Pink Sparkles) -->
+  <g>
+    <!-- Powder Blue Stars -->
+    <path class="star-blue" d="M430,45 L432,39 L434,45 L440,47 L434,49 L432,55 L430,49 L424,47 Z" fill="#93c5fd" />
+    <path class="star-fast" d="M560,35 L561.5,30 L563,35 L568,36.5 L563,38 L561.5,43 L560,38 L555,36.5 Z" fill="#60a5fa" />
+    <path class="star-blue" d="M720,50 L721.5,45 L723,50 L728,51.5 L723,53 L721.5,58 L720,53 L715,51.5 Z" fill="#bfdbfe" />
+    <path class="star-fast" d="M850,40 L852,34 L854,40 L860,42 L854,44 L852,50 L850,44 L844,42 Z" fill="#93c5fd" />
+    <circle cx="870" cy="120" r="2" fill="#60a5fa" class="star-blue" />
+    <circle cx="490" cy="70" r="2.2" fill="#bfdbfe" class="star-fast" />
+    
+    <!-- Blush & Hot Pink Stars -->
+    <path class="star-pink" d="M640,42 L641.5,36 L643,42 L649,43.5 L643,45 L641.5,51 L640,45 L634,43.5 Z" fill="#f472b6" />
+    <path class="star-pink" d="M790,90 L792,84 L794,90 L800,92 L794,94 L792,100 L790,94 L784,92 Z" fill="#ec4899" />
+    <circle cx="685" cy="85" r="2" fill="#f472b6" class="star-pink" />
+    <circle cx="815" cy="140" r="1.8" fill="#fda4af" class="star-fast" />
+    <path class="star-pink" d="M510,320 L511.5,315 L513,320 L518,321.5 L513,323 L511.5,328 L510,323 L505,321.5 Z" fill="#f472b6" />
+    <circle cx="830" cy="300" r="1.8" fill="#ec4899" class="star-pink" />
+    <circle cx="45" cy="65" r="2" fill="#93c5fd" class="star-blue" />
+    <circle cx="60" cy="320" r="1.8" fill="#f472b6" class="star-pink" />
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- LEFT: POLAROID SCRAPBOOK COLLAGE                                  -->
+  <!-- ================================================================= -->
+  <g class="polaroid-group" transform="translate(85, 28)">
+    
+    <!-- Chalk Stamped Star Sticker (Behind Polaroid) -->
+    <g transform="translate(-40, 110) rotate(-15)" filter="url(#sticker-shadow)">
+      <path d="M40,10 L50,32 L74,33 L54,48 L61,71 L40,56 L19,71 L26,48 L6,33 L30,32 Z" 
+            fill="#f8fafc" opacity="0.9" stroke="#93c5fd" stroke-width="1.5" stroke-dasharray="4,2" />
+    </g>
+
+    <!-- Polaroid Outer Body Frame -->
+    <g filter="url(#polaroid-shadow)">
+      <!-- Main Paper Card -->
+      <rect x="0" y="0" width="222" height="272" rx="7" fill="#fbf9f5" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="3" y="3" width="216" height="266" rx="5" fill="none" stroke="#f1f5f9" stroke-width="1.5" />
+      
+      <!-- Inner Photo Frame Window -->
+      <g transform="translate(16, 16)">
+        <rect x="0" y="0" width="190" height="190" rx="3" fill="#18181b" />
+        
+        <!-- B&W Retro Grainy Tech Girl Illustration -->
+        <g clip-path="url(#photo-frame-clip)">
+          <!-- Dark Room Background & Workspace -->
+          <rect width="190" height="190" fill="#121316" />
+          <line x1="0" y1="145" x2="190" y2="145" stroke="#27272a" stroke-width="2" />
+          
+          <!-- Code Screens on Wall / Stand -->
+          <rect x="15" y="30" width="55" height="42" rx="2" fill="#1f242d" stroke="#384252" stroke-width="1" />
+          <line x1="22" y1="40" x2="55" y2="40" stroke="#60a5fa" stroke-width="1.5" stroke-linecap="round" />
+          <line x1="22" y1="48" x2="48" y2="48" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" />
+          <line x1="22" y1="56" x2="60" y2="56" stroke="#f472b6" stroke-width="1.2" stroke-linecap="round" />
+          
+          <rect x="120" y="25" width="58" height="46" rx="2" fill="#1f242d" stroke="#384252" stroke-width="1" />
+          <line x1="128" y1="36" x2="165" y2="36" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" />
+          <line x1="128" y1="44" x2="155" y2="44" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round" />
+          <line x1="128" y1="52" x2="170" y2="52" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round" />
+          <line x1="128" y1="60" x2="145" y2="60" stroke="#f472b6" stroke-width="1.2" stroke-linecap="round" />
+
+          <!-- Character Silhouette (Anime/Bubbles Retro Style Coder) -->
+          <!-- Pigtails / Hair Buns -->
+          <circle cx="56" cy="88" r="24" fill="#e2e8f0" stroke="#09090b" stroke-width="2.5" />
+          <circle cx="134" cy="88" r="24" fill="#e2e8f0" stroke="#09090b" stroke-width="2.5" />
+          <!-- Head / Face -->
+          <circle cx="95" cy="102" r="32" fill="#f8fafc" stroke="#09090b" stroke-width="2.5" />
+          <!-- Bangs -->
+          <path d="M68,90 Q95,108 122,90 Q95,78 68,90 Z" fill="#e2e8f0" stroke="#09090b" stroke-width="2" />
+          <!-- Big Expressive Retro Eyes -->
+          <ellipse cx="82" cy="106" rx="9" ry="13" fill="#09090b" />
+          <ellipse cx="108" cy="106" rx="9" ry="13" fill="#09090b" />
+          <!-- Eye Sparkle Highlights -->
+          <circle cx="80" cy="102" r="4.5" fill="#ffffff" />
+          <circle cx="85" cy="111" r="2" fill="#ffffff" />
+          <circle cx="106" cy="102" r="4.5" fill="#ffffff" />
+          <circle cx="111" cy="111" r="2" fill="#ffffff" />
+          <!-- Cute Blush Cheeks -->
+          <ellipse cx="73" cy="117" rx="5" ry="2.5" fill="#fda4af" opacity="0.8" />
+          <ellipse cx="117" cy="117" rx="5" ry="2.5" fill="#fda4af" opacity="0.8" />
+          <!-- Small Determined Mouth -->
+          <path d="M92,122 Q95,125 98,122" stroke="#09090b" stroke-width="2" fill="none" stroke-linecap="round" />
+
+          <!-- Over-Ear Cans on Character -->
+          <path d="M65,96 Q95,68 125,96" fill="none" stroke="#27272a" stroke-width="6" stroke-linecap="round" />
+          <rect x="60" y="94" width="10" height="24" rx="4" fill="#3f3f46" stroke="#09090b" stroke-width="1.5" />
+          <rect x="120" y="94" width="10" height="24" rx="4" fill="#3f3f46" stroke="#09090b" stroke-width="1.5" />
+
+          <!-- Cozy Oversized Sweater / Shoulders -->
+          <path d="M50,150 C50,132 72,128 95,128 C118,128 140,132 140,150 L145,190 L45,190 Z" fill="#d4d4d8" stroke="#09090b" stroke-width="2.5" />
+          <line x1="80" y1="135" x2="80" y2="165" stroke="#a1a1aa" stroke-width="1.5" />
+          <line x1="110" y1="135" x2="110" y2="165" stroke="#a1a1aa" stroke-width="1.5" />
+
+          <!-- Desk Surface Foreground -->
+          <rect x="0" y="152" width="190" height="40" fill="#09090b" />
+          <!-- Glowing Laptop Shell -->
+          <polygon points="65,150 125,150 135,178 55,178" fill="#27272a" stroke="#52525b" stroke-width="1.2" />
+          <!-- Screen Back Glow (Apple-style Icon Glow) -->
+          <circle cx="95" cy="164" r="5" fill="#93c5fd" opacity="0.9" />
+          <!-- Coding Cables / Mug -->
+          <circle cx="160" cy="168" r="8" fill="#e2e8f0" stroke="#09090b" stroke-width="1.5" />
+          <ellipse cx="160" cy="168" rx="6" ry="3" fill="#3f3f46" />
+          <path d="M25,182 Q50,165 65,175" fill="none" stroke="#60a5fa" stroke-width="1.8" />
+        </g>
+      </g>
+
+      <!-- Polaroid Handwritten Caption -->
+      <text x="111" y="242" text-anchor="middle" class="hand-script" font-size="25" font-weight="700" fill="#334155">
+        that's me!! ✿
+      </text>
+    </g>
+
+    <!-- Sticker 1: Floating Over-Ear Studio Headphones (Top-Right Corner) -->
+    <g transform="translate(182, -18) rotate(18)" filter="url(#sticker-shadow)">
+      <!-- Headband -->
+      <path d="M12,38 C12,14 42,12 56,12 C70,12 100,14 100,38" fill="none" stroke="#f8fafc" stroke-width="11" stroke-linecap="round" />
+      <path d="M12,38 C12,14 42,12 56,12 C70,12 100,14 100,38" fill="none" stroke="#09090b" stroke-width="8" stroke-linecap="round" />
+      <path d="M18,34 C18,18 42,16 56,16 C70,16 94,18 94,34" fill="none" stroke="#27272a" stroke-width="4" stroke-linecap="round" />
+      <!-- Left Ear Cup -->
+      <rect x="2" y="32" width="22" height="34" rx="10" fill="#f8fafc" />
+      <rect x="4" y="34" width="18" height="30" rx="8" fill="#18181b" />
+      <rect x="7" y="37" width="12" height="24" rx="5" fill="#38bdf8" opacity="0.75" />
+      <!-- Right Ear Cup -->
+      <rect x="88" y="32" width="22" height="34" rx="10" fill="#f8fafc" />
+      <rect x="90" y="34" width="18" height="30" rx="8" fill="#18181b" />
+      <rect x="93" y="37" width="12" height="24" rx="5" fill="#f472b6" opacity="0.75" />
+    </g>
+
+    <!-- Sticker 2: Cut-Out Laptop Typing Hands (Bottom-Right Corner) -->
+    <g transform="translate(145, 195) rotate(-6)" filter="url(#sticker-shadow)">
+      <!-- Die-cut white border backing -->
+      <path d="M6,18 L76,6 L108,60 L24,76 Z" fill="#ffffff" rx="8" />
+      <!-- Laptop Keyboard Base -->
+      <polygon points="12,22 72,12 100,56 28,68" fill="#18181b" stroke="#38bdf8" stroke-width="0.8" />
+      <!-- Glowing Key Grid -->
+      <line x1="26" y1="28" x2="68" y2="20" stroke="#52525b" stroke-width="2" stroke-dasharray="2,2" />
+      <line x1="30" y1="36" x2="76" y2="28" stroke="#52525b" stroke-width="2" stroke-dasharray="2,2" />
+      <line x1="34" y1="44" x2="84" y2="36" stroke="#52525b" stroke-width="2" stroke-dasharray="2,2" />
+      <!-- Hands Cut-out Silhouettes Typing -->
+      <ellipse cx="44" cy="46" rx="9" ry="13" fill="#e2e8f0" stroke="#09090b" stroke-width="1.2" transform="rotate(20,44,46)" />
+      <ellipse cx="72" cy="40" rx="9" ry="13" fill="#e2e8f0" stroke="#09090b" stroke-width="1.2" transform="rotate(-20,72,40)" />
+      <!-- Sleeves (Blue & Pink) -->
+      <rect x="18" y="55" width="24" height="18" rx="4" fill="#3b82f6" transform="rotate(15,18,55)" />
+      <rect x="74" y="46" width="24" height="18" rx="4" fill="#ec4899" transform="rotate(-15,74,46)" />
+    </g>
+
+    <!-- Sticker 3: Cute Ribbon Bow (Bottom-Left) -->
+    <g transform="translate(-18, 230) rotate(14)" filter="url(#sticker-shadow)">
+      <!-- White die-cut outline -->
+      <path d="M22,18 C12,8 2,14 12,28 C2,42 12,48 22,38 C32,48 42,42 32,28 C42,14 32,8 22,18 Z" fill="#ffffff" />
+      <!-- Pink Bow Ribbon -->
+      <path d="M22,20 C14,12 6,16 14,28 C6,38 14,42 22,34 C30,42 38,38 30,28 C38,16 30,12 22,20 Z" fill="#f472b6" />
+      <circle cx="22" cy="27" r="4.5" fill="#fda4af" />
+      <path d="M19,32 L12,50 L20,44 L25,48 Z" fill="#ec4899" />
+      <path d="M25,32 L32,50 L24,44 L19,48 Z" fill="#ec4899" />
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- RIGHT: MIXED TYPOGRAPHY & INTERACTIVE CTAS                        -->
+  <!-- ================================================================= -->
+  <g transform="translate(435, 52)">
+
+    <!-- Row 1: "hello" + "(there!!)" circled in hand-drawn pink doodle -->
+    <g transform="translate(0, 36)">
+      <text x="0" y="0" class="hand-script" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="1">
+        hello
+      </text>
+
+      <!-- Circled doodle oval in blush/hot pink -->
+      <g transform="translate(68, -12)">
+        <ellipse cx="48" cy="11" rx="46" ry="20" fill="none" stroke="#f472b6" stroke-width="2.5" 
+                 stroke-linecap="round" stroke-dasharray="280" transform="rotate(-3, 48, 11)" />
+        <path d="M8,22 C28,32 75,30 92,15" fill="none" stroke="#fda4af" stroke-width="1.2" opacity="0.8" />
+        <text x="48" y="18" text-anchor="middle" class="hand-script" font-size="30" font-weight="700" fill="#f472b6" font-style="italic">
+          there!!
+        </text>
+      </g>
+    </g>
+
+    <!-- Row 2: "Tyra Kj this side, I'm a" in flowing powder-blue script -->
+    <g transform="translate(0, 94)">
+      <text x="0" y="0" class="hand-script" font-size="36" font-weight="600" fill="#93c5fd" letter-spacing="0.5">
+        Tyra Kj this side, I’m a
+      </text>
+    </g>
+
+    <!-- Row 3: The 3 Role Tags (Mixed Fonts & Styles) -->
+    <g transform="translate(0, 142)">
+      <!-- Tag 1: "developer" in dark navy pill badge -->
+      <g transform="translate(0, -22)">
+        <rect x="0" y="0" width="128" height="34" rx="8" fill="#0c1322" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.85" />
+        <text x="64" y="22" text-anchor="middle" class="sans-text" font-size="16" font-weight="700" fill="#f8fafc" letter-spacing="0.5">
+          developer
+        </text>
+      </g>
+
+      <!-- Slash separator -->
+      <text x="142" y="3" class="sans-text" font-size="24" font-weight="300" fill="#475569">/</text>
+
+      <!-- Tag 2: "ai infra & agents" in blush-pink italic brush script -->
+      <g transform="translate(162, 0)">
+        <text x="0" y="0" class="hand-script" font-size="32" font-weight="700" font-style="italic" fill="#f472b6">
+          ai infra &amp; agents
+        </text>
+        <!-- Pink wavy doodle underline -->
+        <path d="M-2,8 Q45,15 95,8 T195,9" fill="none" stroke="#f472b6" stroke-width="2.2" stroke-linecap="round" />
+      </g>
+
+      <!-- Slash separator -->
+      <text x="372" y="3" class="sans-text" font-size="24" font-weight="300" fill="#475569">/</text>
+
+      <!-- Tag 3: "solana & web3" in crisp sans with powder-blue underline -->
+      <g transform="translate(392, 0)">
+        <text x="0" y="-1" class="sans-text" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="0.8">
+          solana &amp; web3
+        </text>
+        <!-- Blue underline -->
+        <line x1="0" y1="7" x2="148" y2="7" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" />
+      </g>
+    </g>
+
+    <!-- Row 4: "based in | THE TERMINAL." -->
+    <g transform="translate(0, 194)">
+      <text x="0" y="0" class="hand-script" font-size="28" font-style="italic" fill="#cbd5e1">
+        based in
+      </text>
+      <!-- Vertical divider line -->
+      <line x1="94" y1="-22" x2="94" y2="4" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round" />
+      <text x="108" y="-1" class="sans-text" font-size="23" font-weight="800" fill="#ffffff" letter-spacing="2">
+        THE TERMINAL.
+      </text>
+    </g>
+
+    <!-- Row 5: Action Guide & Buttons -->
+    <g transform="translate(0, 240)">
+      <!-- "psst... start here ↘" in mini pink script -->
+      <text x="4" y="-8" class="hand-script" font-size="18" font-weight="700" fill="#f472b6" letter-spacing="0.5">
+        psst... start here ↘
+      </text>
+
+      <!-- Button 1: |SEE MY WORK -->
+      <a href="#featured-projects" class="btn-hover">
+        <g transform="translate(0, 2)">
+          <rect x="0" y="0" width="145" height="32" rx="6" fill="#080e1a" stroke="#1e293b" stroke-width="1" />
+          <line x1="12" y1="7" x2="12" y2="25" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" />
+          <text x="24" y="21" class="mono-text" font-size="13" font-weight="700" fill="#f1f5f9" letter-spacing="1.5">
+            SEE MY WORK
+          </text>
+        </g>
+      </a>
+
+      <!-- Button 2: |DROP ME A LINE -->
+      <a href="mailto:tyra191712@gmail.com" class="btn-hover">
+        <g transform="translate(162, 2)">
+          <rect x="0" y="0" width="168" height="32" rx="6" fill="#080e1a" stroke="#1e293b" stroke-width="1" />
+          <line x1="12" y1="7" x2="12" y2="25" stroke="#f472b6" stroke-width="3" stroke-linecap="round" />
+          <text x="24" y="21" class="mono-text" font-size="13" font-weight="700" fill="#f1f5f9" letter-spacing="1.5">
+            DROP ME A LINE
+          </text>
+        </g>
+      </a>
+    </g>
+  </g>
+</svg>
