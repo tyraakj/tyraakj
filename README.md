@@ -45,7 +45,7 @@ When I'm not shipping code, I'm usually designing interfaces, reading whitepaper
 | **Languages** | TypeScript · JavaScript · Python · Solidity |
 | **Frontend** | React · Next.js · Vite · TailwindCSS |
 | **Backend** | FastAPI · Node.js · LangGraph · OpenTelemetry |
-| **AI & LLMs** | OpenAI API · Anthropic API · LiteLLM · DSPy · Presidio |
+| **AI & LLMs** | OpenAI API · vLLM · LiteLLM · DSPy · Presidio |
 | **Databases** | PostgreSQL · Redis · Qdrant · Pinecone · Supabase |
 | **Web3** | Base · ethers.js · OpenZeppelin · Hardhat · ERC-3009 · UGF SDK |
 | **Infra** | AWS S3 · Docker · Apache Kafka · Vercel |
@@ -57,7 +57,7 @@ When I'm not shipping code, I'm usually designing interfaces, reading whitepaper
 
 ## 🚀 Featured Projects
 
-### 🔒 Privacy & Semantic Cache Proxy
+###  Privacy & Semantic Cache Proxy
 
 > An OpenAI-API-compatible proxy that **masks PII before it leaves your infrastructure**, caches semantically-similar queries to cut inference cost, and traces every exchange without ever exposing sensitive data.
 
@@ -83,7 +83,7 @@ Response ← Streaming Unmask ← Redis Rehydration ← Raw Response
 <!-- ─── MINI DIVIDER ─────────────────────────────────────────── -->
 <p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
-### 🔬 Evaluation Harness Pipeline
+###  Evaluation Harness Pipeline
 
 > A **reproducible AI evaluation framework** that executes versioned tasks against AI targets, captures bounded evidence, grades observable outcomes, and produces deterministic release decisions — not a model gateway, it owns the outer evaluation loop.
 
@@ -92,7 +92,7 @@ Task Registry → Trial Executor → Evidence Capture → Grader Suite
                                                           ↓
                               Baseline Comparator ← Candidate Report
                                         ↓
-                              ✅ Release Decision | 🚫 Regression Flag
+                              Release Decision | Regression Flag
 ```
 
 | Concept | Description |
@@ -109,7 +109,7 @@ Task Registry → Trial Executor → Evidence Capture → Grader Suite
 <!-- ─── MINI DIVIDER ─────────────────────────────────────────── -->
 <p align="center"><img src="./divider.svg" width="100%" alt="· · ·" /></p>
 
-### ⛓️ Vaulted — Gasless Freelance Escrow
+###  Vaulted — Gasless Freelance Escrow
 
 > A **gasless on-chain escrow platform** built on Base Sepolia. Payment locks on-chain the moment a job is posted, releases only on approval — and neither party ever needs ETH. UGF handles all gas automatically.
 
