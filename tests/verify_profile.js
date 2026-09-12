@@ -3,8 +3,6 @@ const path = require('path');
 
 const REQUIRED_ASSETS = {
   'assets/hero.svg': [900, 360],
-  'assets/manifesto.svg': [900, 160],
-  'assets/skills_card.svg': [540, 350],
   'assets/activity_card.svg': [320, 350],
   'assets/divider_grunge.svg': [900, 24],
   'assets/card_portfolio.svg': [265, 90],

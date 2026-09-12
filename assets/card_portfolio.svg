@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 90" width="265" height="90">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap');
+      .mono-text { font-family: 'Space Mono', monospace, 'Courier New'; }
+      .sans-text { font-family: 'Segoe UI', -apple-system, sans-serif; }
+    </style>
+    <filter id="stamp-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1.5" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <g filter="url(#stamp-shadow)">
+    <rect x="2" y="2" width="261" height="86" rx="10" fill="#fdfbf7" stroke="#cbd5e1" stroke-width="1" />
+    <rect x="5" y="5" width="255" height="80" rx="8" fill="none" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4,3" />
+
+    <g transform="translate(18, 17)">
+      <rect x="0" y="0" width="56" height="56" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+      <polygon points="28,12 44,28 28,44 12,28" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round" />
+      <polygon points="28,19 37,28 28,37 19,28" fill="#93c5fd" fill-opacity="0.75" />
+    </g>
+
+    <text x="88" y="34" class="mono-text" font-size="10" font-weight="700" fill="#2563eb" letter-spacing="2">PORTFOLIO</text>
+    <text x="88" y="54" class="sans-text" font-size="14" font-weight="600" fill="#0f172a">tyrakj.vercel.app</text>
+    <text x="88" y="72" class="mono-text" font-size="10" font-weight="700" fill="#3b82f6">↗ open</text>
+  </g>
+</svg>
