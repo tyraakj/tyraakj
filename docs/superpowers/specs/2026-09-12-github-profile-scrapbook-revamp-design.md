@@ -62,12 +62,12 @@ Transform the `tyraakj` GitHub profile README into an analog-meets-digital scrap
     * `psst... start here ↘` in mini pink script.
     * Clickable button tags: `|SEE MY WORK` (ice-blue cursor bar, linked to `#featured-projects`) and `|DROP ME A LINE` (pink cursor bar, linked to `mailto:tyra191712@gmail.com`).
 
-### 3.2 Philosophy Manifesto Banner (`assets/manifesto.svg` — 900×160px)
+### 3.2 Philosophy Narrative Banner (`assets/manifesto.svg` — 900×160px)
 * Seamless dark fluid marble background matching the hero.
-* Authentic, unpretentious narrative tailored to Tyra's actual projects, with alternating **powder-blue** and **blush-pink** highlighter tape:
-  * *"I build systems where [latency, privacy, and sovereignty] (powder-blue tape) actually matter."*
-  * *"From [zero-gas ephemeral rollups] (blush-pink tape) on Solana to [remote AI agent harnesses] (powder-blue tape) and privacy proxies."*
-  * *"The goal is simple: code that is [fast, verifiable, and resilient.] (blush-pink tape)"*
+* Genuine, builder-first narrative tailored to Tyra's actual projects, styled with alternating **powder-blue** and **blush-pink** marker tape highlights:
+  * *"Most of my time goes into figuring out how [complex systems break] (powder-blue tape) and building better alternatives."*
+  * *"From [zero-gas rollups to local AI harnesses] (blush-pink tape)—if it [solves an actual friction] (powder-blue tape), I want to build it."*
+
 
 ### 3.3 Skills & Activity Row
 
